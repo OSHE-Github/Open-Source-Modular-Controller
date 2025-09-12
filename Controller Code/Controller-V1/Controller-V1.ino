@@ -1,6 +1,7 @@
 /**
  * Simple HID gamepad, 32 buttons + 2x 3 axis + 8 position hat
  * author: chegewara
+ * library used ESP32TinyUSB
  */
 #define PIN_Rx 1
 #define PIN_Ry 2
