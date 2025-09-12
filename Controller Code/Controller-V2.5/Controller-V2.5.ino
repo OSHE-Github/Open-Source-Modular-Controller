@@ -11,8 +11,8 @@
 #define L1 18
 #define R2 3
 #define L2 6
-#define R3 15
-#define L3 16
+#define R3 35
+#define L3 36
 
 #define A 7
 #define B 8
@@ -24,13 +24,21 @@
 #define left 13
 #define right 14
 
-#define START 35
-#define SELECT 36
+#define START 15
+#define SELECT 16
 #define HOME 21
 
+// On-board RGB LED (ESP32-S3 Dev Module usually GPIO48 or board specific)
+#define LED_PIN 38
+#define LED_COUNT 1
+
 #include "hidgamepad.h"
+#include <Adafruit_NeoPixel.h>
+
 #if CFG_TUD_HID
 HIDgamepad gamepad;
+Adafruit_NeoPixel playerLED(LED_COUNT, LED_PIN, NEO_GRB + NEO_KHZ800);
+int playerNumber = 1;
 
 void setup()
 {
@@ -62,10 +70,36 @@ void setup()
 
     Serial.begin(115200);
     gamepad.begin();
+    playerLED.begin();
+    playerLED.show(); // Initialize off
 }
+
+
+void setPlayerLED(int player) {
+    uint32_t color = 0;
+    switch (player) {
+        case 1: color = playerLED.Color(255, 0, 0); break;   // Red
+        case 2: color = playerLED.Color(0, 255, 0); break;   // Green
+        case 3: color = playerLED.Color(0, 0, 255); break;   // Blue
+        case 4: color = playerLED.Color(255, 255, 0); break; // Yellow
+        default: color = playerLED.Color(255, 255, 255); break; // White
+    }
+    playerLED.setPixelColor(0, color);
+    playerLED.show();
+}
+
 
 void loop()
 {
+
+    // Example: cycle player number on START button press
+    if (!digitalRead(START)) {
+        delay(200); // debounce
+        playerNumber++;
+        if (playerNumber > 4) playerNumber = 1;
+        setPlayerLED(playerNumber);
+    }
+
     // -------------------
     // Read analog joysticks
     // -------------------
@@ -125,12 +159,8 @@ void loop()
         r2Val,     // R2 (treated as analog axis)
         hat        // D-pad hat
     );
-    Serial.println("Joystick position");
-    Serial.printf( "\nLeft y: %d x: %d \n Right y: %d x: %d \n", lyVal,lxVal,ryVal,rxVal);
-    Serial.printf("Button State A B X Y R1 L1 R2 L2 R3 L3 \n %b \n", buttons);
-    Serial.printf("Hat position: %d", hat);
 
-    delay(500); // Small poll delay
+    delay(10); // Small poll delay
 }
 
 #endif
