@@ -28,6 +28,8 @@
 #define SELECT 36
 #define HOME 21
 
+const int deadzone = 9;
+
 #include "hidgamepad.h"
 #if CFG_TUD_HID
 HIDgamepad gamepad;
@@ -71,10 +73,22 @@ void loop()
     // -------------------
     // Map ADC values (0–4095 on ESP32) to HID range (-127..127)
     int lxVal = map(analogRead(Lx), 0, 4095, -127, 127);
+    if (abs(lxVal)<deadzone){
+        lxVal=0;
+    }
     int lyVal = map(analogRead(Ly), 0, 4095, -127, 127);
+    if (abs(lyVal)<deadzone){
+        lyVal=0;
+    }
     int rxVal = map(analogRead(PIN_Rx), 0, 4095, -127, 127);
+    if (abs(rxVal)<deadzone){
+        rxVal=0;
+    }
     int ryVal = map(analogRead(PIN_Ry), 0, 4095, -127, 127);
-
+    if (abs(ryVal)<deadzone){
+        ryVal=0;
+    }
+    
     // Triggers (if you want them analog, otherwise treat as buttons)
     
     int l2Val = !digitalRead(L2) ? 127 : 0;
@@ -126,11 +140,11 @@ void loop()
         hat        // D-pad hat
     );
     Serial.println("Joystick position");
-    Serial.printf( "\nLeft y: %d x: %d \n Right y: %d x: %d \n", lyVal,lxVal,ryVal,rxVal);
-    Serial.printf("Button State A B X Y R1 L1 R2 L2 R3 L3 \n %b \n", buttons);
-    Serial.printf("Hat position: %d", hat);
+    Serial.printf( "Left y: %d x: %d \nRight y: %d x: %d \n", lyVal,lxVal,ryVal,rxVal);
+    Serial.printf("Button State A B X Y R1 L1 R2 L2 R3 L3 \n%d \n", buttons);
+    Serial.printf("Hat position: %d \n", hat);
 
-    delay(500); // Small poll delay
+    delay(10); // Small poll delay
 }
 
 #endif
