@@ -5467,7 +5467,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 116.84) (xy 149.86 116.84)
+			(xy 144.78 116.84) (xy 152.4 116.84)
 		)
 		(stroke
 			(width 0)
@@ -10822,7 +10822,7 @@
 	)
 	(symbol
 		(lib_id "Library:+3V3")
-		(at 149.86 116.84 0)
+		(at 152.4 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10831,7 +10831,7 @@
 		(fields_autoplaced yes)
 		(uuid "29fe3439-4766-4a4b-93d5-6316c95d319f")
 		(property "Reference" "#PWR011"
-			(at 149.86 120.65 0)
+			(at 152.4 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10840,7 +10840,7 @@
 			)
 		)
 		(property "Value" "VCC_3V3"
-			(at 149.86 111.76 0)
+			(at 152.4 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10848,7 +10848,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 116.84 0)
+			(at 152.4 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10857,7 +10857,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 116.84 0)
+			(at 152.4 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10866,7 +10866,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 149.86 116.84 0)
+			(at 152.4 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11023,7 +11023,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 144.78 133.6548 0)
 			(effects
 				(font
