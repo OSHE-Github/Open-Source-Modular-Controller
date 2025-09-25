@@ -11054,7 +11054,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 45.72 86.868 90)
 			(effects
 				(font
@@ -12191,7 +12191,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 45.72 81.788 90)
 			(effects
 				(font
@@ -15828,7 +15828,7 @@
 			)
 		)
 		(instances
-			(project "Controller base V0.5"
+			(project "Controller base V0.6"
 				(path "/5ff5287b-60c7-4258-8bdb-42f045207b2d"
 					(page "2")
 				)
