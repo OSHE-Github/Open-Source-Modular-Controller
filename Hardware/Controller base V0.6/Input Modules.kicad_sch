@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "0b2eebba-f930-4c03-8ab1-d3a52fc5d08c")
 	(paper "A4")
+	(title_block
+		(date "2025-09-26")
+		(rev "0.6")
+		(company "OSHE")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_02x07_Odd_Even"
 			(pin_names
