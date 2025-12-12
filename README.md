@@ -24,12 +24,12 @@ The system operates as a recognized USB gamepad on Windows. Some hardware issues
 
 The repository is organized as follows:
 1. **Firmware** – ESP32‑S3 code handling HID communication and module input processing.  
-   *Link: [Firmware](/Controller%20Code/README.md)*
+   *Link: [Firmware](/Controller%20Code/Firmware.md)*
 2. **Software** – PC‑side utilities or test scripts (coming soon).  
 3. **Hardware** – KiCad project files, schematics, PCBs, and 3D‑printed shell models.  
-   *Link: [Hardware](/Hardware/README.md)*
+   *Link: [Hardware](/Hardware/Hardware.md)*
 4. **Documentation** – Assembly instructions, diagrams, semester report, and testing notes.  
-   *Link: [Documentation](/Documents/README.md)*
+   *Link: [Documentation](/Documents/Documents.md)*
 
 ## Features
 
@@ -80,14 +80,15 @@ A full BOM including the ESP32‑S3 boards, connector sets, resistors, capacitor
 
 [Full assembly guide](/Documents/Assembly%20guide.md)
 
-
-
 ## What the Project Could Use Next
 1. On‑board processing for more advanced input mapping
 2. Improved module-to-module communication protocol
 3. Magnetic pogo‑pin connectors for easier swapping
 4. Wireless mode using Bluetooth HID
 5. Additional module types (triggers, sliders, touchpads)
+
+## Semester End Report
+For the Enterprise Program at Michigan Tech there is a end of semester report for the project to summarize the progress of the project. [Link](/Documents/Open%20Source%20Modular%20Controller%20Fall%202025%20Final%20Report.pdf)
 
 ## Acknowledgements
 This project is supported by the Open Source Hardware Enterprise at Michigan Technological University.
