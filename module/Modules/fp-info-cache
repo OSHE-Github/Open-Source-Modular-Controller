@@ -1,4 +1,4 @@
-46578383376091135
+46581921386299308
 12402012E212A
 USB_C_Receptacle_HRO_TYPE-C-31-M-12
 USB Type-C receptacle for USB 2.0 and PD, http://www.krhro.com/uploads/soft/180320/1-1P320120243.pdf
@@ -73534,6 +73534,20 @@ net tie
 0
 4
 4
+OSMC_Module
+Module standard
+
+
+0
+0
+0
+OSMC_Module
+Module standard v2
+
+
+0
+0
+0
 OptoDevice
 ADNS-9800
 Laser Gaming Sensor ADNS-9800
