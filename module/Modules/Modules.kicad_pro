@@ -554,6 +554,10 @@
       {
         "netclass": "Power",
         "pattern": "/Vdd"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/5V"
       }
     ]
   },

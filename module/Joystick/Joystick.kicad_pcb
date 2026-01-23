@@ -4007,7 +4007,7 @@
 	(footprint "Package_SO:TSSOP-10_3x3mm_P0.5mm"
 		(layer "B.Cu")
 		(uuid "b1e06fb1-9558-4311-8390-45fecfcc4078")
-		(at 89.675 104.5)
+		(at 84.55 103.9)
 		(descr "TSSOP10: plastic thin shrink small outline package; 10 leads; body width 3 mm; (see NXP SSOP-TSSOP-VSO-REFLOW.pdf and sot552-1_po.pdf)")
 		(tags "SSOP 0.5")
 		(property "Reference" "U9"
@@ -5423,6 +5423,16 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "5d626300-6c94-431e-a4e7-e5416d30b42e")
+	)
+	(gr_line
+		(start 89.7 120.475)
+		(end 89.7 88.475)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "90388f10-1411-4c68-985e-f566a76fbcbd")
 	)
 	(image
 		(at 196.3 96.907159)
@@ -12847,6 +12857,82 @@
 				(font
 					(size 1 1)
 					(thickness 0.1)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Edge.Cuts")
+		(uuid "06ddacce-352a-49e9-b693-17c579d1d95e")
+		(pts
+			(xy 89.7 104.475) (xy 98.875 95.3)
+		)
+		(height -19.05)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.05)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "9.175"
+			(at 94.2875 84.275 0)
+			(layer "Edge.Cuts")
+			(uuid "06ddacce-352a-49e9-b693-17c579d1d95e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Edge.Cuts")
+		(uuid "ff22b676-e32d-45d9-a68e-fbb01da9e9bd")
+		(pts
+			(xy 98.875 95.3) (xy 89.7 104.475)
+		)
+		(height 9.125)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.05)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "9.175"
+			(at 106.85 99.8875 90)
+			(layer "Edge.Cuts")
+			(uuid "ff22b676-e32d-45d9-a68e-fbb01da9e9bd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
