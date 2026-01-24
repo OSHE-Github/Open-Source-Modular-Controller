@@ -558,6 +558,14 @@
       {
         "netclass": "Power",
         "pattern": "/5V"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "+5V"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "VDD"
       }
     ]
   },
@@ -728,6 +736,10 @@
     [
       "c7166619-b781-4a53-a071-e3ce369183d9",
       "Root"
+    ],
+    [
+      "a650447b-d3aa-491e-8687-dac7302795aa",
+      "Modules"
     ]
   ],
   "text_variables": {}
