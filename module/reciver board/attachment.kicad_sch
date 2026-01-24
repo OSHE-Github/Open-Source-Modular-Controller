@@ -1,0 +1,1132 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "d36e2c04-2c51-449b-90f1-15b4069c2a61")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Library:Input_Module_Pinless"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 5.08 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "OSMC Module Board"
+				(at 0 2.54 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "OSMC_Module:Module standard large"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "OSMC_Module:Module_standard_small OSMC_Module:Module_standard_large"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Input_Module_Pinless_0_1"
+				(rectangle
+					(start -6.35 -5.08)
+					(end -6.35 -13.97)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -6.35 -13.97)
+					(end 6.35 -13.97)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -6.35 -5.08)
+					(mid 0 1.27)
+					(end 6.35 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 6.35 -13.97)
+					(end 6.35 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(wire
+		(pts
+			(xy 26.67 152.4) (xy 20.32 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "053eb240-8dea-45f2-9979-88f8d876624b")
+	)
+	(wire
+		(pts
+			(xy 26.67 190.5) (xy 20.32 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05cf28b4-d8a0-44a6-b2b7-ea7dadb17d9c")
+	)
+	(wire
+		(pts
+			(xy 26.67 177.8) (xy 20.32 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11c6186b-db24-4585-9d98-91401f09bc4f")
+	)
+	(wire
+		(pts
+			(xy 26.67 172.72) (xy 20.32 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c6384b1-ee14-44e8-96e0-d45fba49bc89")
+	)
+	(wire
+		(pts
+			(xy 26.67 187.96) (xy 20.32 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28c3fb7f-5b11-490f-92ea-0426b4ee07f2")
+	)
+	(wire
+		(pts
+			(xy 26.67 154.94) (xy 20.32 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2aacc971-9390-40e4-981e-922e8b9c403c")
+	)
+	(wire
+		(pts
+			(xy 26.67 180.34) (xy 20.32 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d8ac8ed-91cd-46e1-835e-12dc48c4838a")
+	)
+	(wire
+		(pts
+			(xy 26.67 175.26) (xy 20.32 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3308ce96-80c4-4854-a3fe-a8482eec0dad")
+	)
+	(wire
+		(pts
+			(xy 26.67 142.24) (xy 20.32 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "485f00d6-7160-4dae-a6ba-71adca2c47a6")
+	)
+	(wire
+		(pts
+			(xy 26.67 147.32) (xy 20.32 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53b49da3-a1f6-48ed-a2dd-48bbad5aede3")
+	)
+	(wire
+		(pts
+			(xy 26.67 162.56) (xy 20.32 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63105052-e41f-4caf-91b0-a2ce4e74e9ca")
+	)
+	(wire
+		(pts
+			(xy 26.67 149.86) (xy 20.32 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66eef8da-c26b-49ee-94b8-dc92b342c98a")
+	)
+	(wire
+		(pts
+			(xy 26.67 139.7) (xy 20.32 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "764e8b47-8664-4a18-9479-c931a513a7d5")
+	)
+	(wire
+		(pts
+			(xy 26.67 185.42) (xy 20.32 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81f5bbdc-b410-4c09-9965-1b218d8bd9b4")
+	)
+	(wire
+		(pts
+			(xy 26.67 167.64) (xy 20.32 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "847dc3f9-4500-4da7-b818-89c9b76db100")
+	)
+	(wire
+		(pts
+			(xy 26.67 182.88) (xy 20.32 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86ad8390-aee5-4bd5-b0ab-79ca1dd3f1e1")
+	)
+	(wire
+		(pts
+			(xy 20.32 132.08) (xy 26.67 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87e95dd6-c1f8-4bcb-bfb6-6fd99f9ae52e")
+	)
+	(wire
+		(pts
+			(xy 26.67 144.78) (xy 20.32 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90877324-46e1-477b-88ab-3144e2fdad8d")
+	)
+	(wire
+		(pts
+			(xy 26.67 137.16) (xy 20.32 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0b27546-a0f9-409a-ab08-87264795bcce")
+	)
+	(wire
+		(pts
+			(xy 20.32 134.62) (xy 26.67 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae405b66-ddec-44e2-bc8b-39ae642ffaee")
+	)
+	(wire
+		(pts
+			(xy 26.67 165.1) (xy 20.32 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d38ca7df-37a6-47f5-9ccd-7fb50abe2fa8")
+	)
+	(wire
+		(pts
+			(xy 26.67 157.48) (xy 20.32 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6a560d6-4439-4ce6-9f11-7a4edf9260b5")
+	)
+	(wire
+		(pts
+			(xy 26.67 170.18) (xy 20.32 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1fd600e-7f2a-42e3-bd38-03e6b1fb0d1a")
+	)
+	(wire
+		(pts
+			(xy 26.67 160.02) (xy 20.32 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1253e36-0714-4dd2-a731-b72e4fa4ab45")
+	)
+	(hierarchical_label "Det6"
+		(shape input)
+		(at 26.67 187.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0f7a17ba-f400-4959-b375-865197dc4556")
+	)
+	(hierarchical_label "SCL6"
+		(shape input)
+		(at 26.67 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0f878140-c4be-409a-8872-f337addb4d38")
+	)
+	(hierarchical_label "SDA7"
+		(shape input)
+		(at 26.67 170.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "131b9ce3-9acd-4f48-bf7f-b498e69ca0db")
+	)
+	(hierarchical_label "SCL1"
+		(shape input)
+		(at 26.67 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "220edcb7-9529-448a-974e-f210eff310ef")
+	)
+	(hierarchical_label "Det2"
+		(shape input)
+		(at 26.67 177.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "30ab68ea-b8e5-4ff5-a718-eb1978cbb616")
+	)
+	(hierarchical_label "SCL4"
+		(shape input)
+		(at 26.67 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "336d114e-9cab-4714-854e-1822c6bf93ad")
+	)
+	(hierarchical_label "SCL0"
+		(shape input)
+		(at 26.67 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "44467677-5e01-45cc-963e-8fcc45712000")
+	)
+	(hierarchical_label "SDA1"
+		(shape input)
+		(at 26.67 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5488ed12-72de-4e22-8efe-e84fb08c22b1")
+	)
+	(hierarchical_label "SCL5"
+		(shape input)
+		(at 26.67 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "549e0dcf-5003-45ed-a222-fa014b58d0a8")
+	)
+	(hierarchical_label "Det3"
+		(shape input)
+		(at 26.67 180.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5d8b692d-7d6b-4b43-8c36-d10bf6e67151")
+	)
+	(hierarchical_label "SDA4"
+		(shape input)
+		(at 26.67 154.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5e5ec2c1-842b-4a8f-97fa-64c9466fdfdb")
+	)
+	(hierarchical_label "SCL7"
+		(shape input)
+		(at 26.67 167.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "65a7024f-d144-4117-8977-8a0a787614f7")
+	)
+	(hierarchical_label "Det0"
+		(shape input)
+		(at 26.67 172.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6735f673-e337-48e0-8c06-abc694faf632")
+	)
+	(hierarchical_label "SCL2"
+		(shape input)
+		(at 26.67 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "729705ce-0c8f-4889-ab27-53bacf0b71e8")
+	)
+	(hierarchical_label "Det1"
+		(shape input)
+		(at 26.67 175.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "838e3e2b-6466-4975-9148-6f2128c2548b")
+	)
+	(hierarchical_label "SDA5"
+		(shape input)
+		(at 26.67 160.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "95c91baa-424b-400b-bfc5-be5ceb00ada8")
+	)
+	(hierarchical_label "SDA6"
+		(shape input)
+		(at 26.67 165.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a79ea3f0-fa20-426c-8f2f-385ef394c4c8")
+	)
+	(hierarchical_label "Det4"
+		(shape input)
+		(at 26.67 182.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b47a949c-cc8c-4ecf-b0df-82972c929ed8")
+	)
+	(hierarchical_label "SDA2"
+		(shape input)
+		(at 26.67 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b851d79a-3bf4-4659-9687-9dfe6ddb9ef2")
+	)
+	(hierarchical_label "SCL3"
+		(shape input)
+		(at 26.67 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c4e7556c-48e9-4ac7-b6e1-9b7c219ecdd6")
+	)
+	(hierarchical_label "Det5"
+		(shape input)
+		(at 26.67 185.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d5e77ea5-7390-4dcc-98e5-8ca20f30ba62")
+	)
+	(hierarchical_label "Det7"
+		(shape input)
+		(at 26.67 190.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "da7a3359-8e5b-42ca-8c38-ef2a378103ba")
+	)
+	(hierarchical_label "SDA0"
+		(shape input)
+		(at 26.67 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e7d4a9e2-4ea9-4369-8ce6-6bc749c50cde")
+	)
+	(hierarchical_label "SDA3"
+		(shape input)
+		(at 26.67 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f92896a4-8b19-468c-9c79-b5003f330d75")
+	)
+	(symbol
+		(lib_id "Library:Input_Module_Pinless")
+		(at 111.76 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49d54dca-49b3-402a-b27e-32434614b314")
+		(property "Reference" "U19"
+			(at 111.76 41.91 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OSMC Module Board"
+			(at 111.76 44.45 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "OSMC_Module:Module standard large"
+			(at 111.76 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "reciver board"
+				(path "/c7166619-b781-4a53-a071-e3ce369183d9/a650447b-d3aa-491e-8687-dac7302795aa/a6441524-8e38-4cb2-be0e-24b696e07697"
+					(reference "U19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library:Input_Module_Pinless")
+		(at 90.17 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56ecf4df-0606-4c68-9dd7-a86d01cbe4bf")
+		(property "Reference" "U17"
+			(at 90.17 41.91 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OSMC Module Board"
+			(at 90.17 44.45 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "OSMC_Module:Module standard large"
+			(at 90.17 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 90.17 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "reciver board"
+				(path "/c7166619-b781-4a53-a071-e3ce369183d9/a650447b-d3aa-491e-8687-dac7302795aa/a6441524-8e38-4cb2-be0e-24b696e07697"
+					(reference "U17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library:Input_Module_Pinless")
+		(at 67.31 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "782a9f25-4a9b-4911-824f-d55919ab2428")
+		(property "Reference" "U15"
+			(at 67.31 41.91 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OSMC Module Board"
+			(at 67.31 44.45 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "OSMC_Module:Module standard large"
+			(at 67.31 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 67.31 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "reciver board"
+				(path "/c7166619-b781-4a53-a071-e3ce369183d9/a650447b-d3aa-491e-8687-dac7302795aa/a6441524-8e38-4cb2-be0e-24b696e07697"
+					(reference "U15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library:Input_Module_Pinless")
+		(at 90.17 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e8f58f8-28cf-4ab3-9603-c49bffc81a64")
+		(property "Reference" "U18"
+			(at 90.17 66.04 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OSMC Module Board"
+			(at 90.17 68.58 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "OSMC_Module:Module standard large"
+			(at 90.17 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 90.17 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "reciver board"
+				(path "/c7166619-b781-4a53-a071-e3ce369183d9/a650447b-d3aa-491e-8687-dac7302795aa/a6441524-8e38-4cb2-be0e-24b696e07697"
+					(reference "U18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library:Input_Module_Pinless")
+		(at 45.72 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be0743a1-d806-4b31-a916-e055d404fb89")
+		(property "Reference" "U13"
+			(at 45.72 41.91 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OSMC Module Board"
+			(at 45.72 44.45 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "OSMC_Module:Module standard large"
+			(at 45.72 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 45.72 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "reciver board"
+				(path "/c7166619-b781-4a53-a071-e3ce369183d9/a650447b-d3aa-491e-8687-dac7302795aa/a6441524-8e38-4cb2-be0e-24b696e07697"
+					(reference "U13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library:Input_Module_Pinless")
+		(at 111.76 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d173aba9-797b-4552-bf3b-a92b89006ec7")
+		(property "Reference" "U20"
+			(at 111.76 66.04 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OSMC Module Board"
+			(at 111.76 68.58 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "OSMC_Module:Module standard large"
+			(at 111.76 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "reciver board"
+				(path "/c7166619-b781-4a53-a071-e3ce369183d9/a650447b-d3aa-491e-8687-dac7302795aa/a6441524-8e38-4cb2-be0e-24b696e07697"
+					(reference "U20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library:Input_Module_Pinless")
+		(at 45.72 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e497ef6d-d0fc-43fa-905c-cc3f56ca0dfc")
+		(property "Reference" "U14"
+			(at 45.72 66.04 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OSMC Module Board"
+			(at 45.72 68.58 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "OSMC_Module:Module standard large"
+			(at 45.72 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 45.72 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "reciver board"
+				(path "/c7166619-b781-4a53-a071-e3ce369183d9/a650447b-d3aa-491e-8687-dac7302795aa/a6441524-8e38-4cb2-be0e-24b696e07697"
+					(reference "U14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library:Input_Module_Pinless")
+		(at 68.58 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e7b1a5fa-526a-4218-82a5-51adcf2a8bdd")
+		(property "Reference" "U16"
+			(at 68.58 66.04 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OSMC Module Board"
+			(at 68.58 68.58 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "OSMC_Module:Module standard large"
+			(at 68.58 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 68.58 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "reciver board"
+				(path "/c7166619-b781-4a53-a071-e3ce369183d9/a650447b-d3aa-491e-8687-dac7302795aa/a6441524-8e38-4cb2-be0e-24b696e07697"
+					(reference "U16")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
