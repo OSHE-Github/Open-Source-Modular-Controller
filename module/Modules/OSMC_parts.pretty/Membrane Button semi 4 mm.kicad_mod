@@ -1,4 +1,4 @@
-(footprint "Membrane Button simi 4 mm"
+(footprint "Membrane Button semi 4 mm"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "Membrane Button simi 4 mm"
+	(property "Value" "Membrane Button semi 4 mm"
 		(at 0.08 -3.23 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -126,7 +126,28 @@
 				(options
 					(anchor rect)
 				)
-				(primitives)
+				(primitives
+					(gr_line
+						(start 1.75 -0.81)
+						(end -1.75 -0.81)
+						(width 0.1)
+					)
+					(gr_arc
+						(start 1.75 -0.81)
+						(mid 0 0.94)
+						(end -1.75 -0.81)
+						(width 0.1)
+					)
+					(gr_poly
+						(pts
+							(xy 1.69 -0.74) (xy -1.66 -0.73) (xy -1.5 -0.11) (xy -1.14 0.39) (xy -0.67 0.75) (xy 0 0.86)
+							(xy 0.67 0.73) (xy 1.21 0.34) (xy 1.57 -0.21)
+						)
+						(width 0.2)
+						(fill yes)
+					)
+				)
+				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "B.Cu"
@@ -135,7 +156,28 @@
 				(options
 					(anchor rect)
 				)
-				(primitives)
+				(primitives
+					(gr_line
+						(start 1.75 -0.81)
+						(end -1.75 -0.81)
+						(width 0.1)
+					)
+					(gr_arc
+						(start 1.75 -0.81)
+						(mid 0 0.94)
+						(end -1.75 -0.81)
+						(width 0.1)
+					)
+					(gr_poly
+						(pts
+							(xy 1.69 -0.74) (xy -1.66 -0.73) (xy -1.5 -0.11) (xy -1.14 0.39) (xy -0.67 0.75) (xy 0 0.86)
+							(xy 0.67 0.73) (xy 1.21 0.34) (xy 1.57 -0.21)
+						)
+						(width 0.2)
+						(fill yes)
+					)
+				)
+				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 		)
@@ -179,7 +221,27 @@
 				(options
 					(anchor rect)
 				)
-				(primitives)
+				(primitives
+					(gr_poly
+						(pts
+							(xy 1.69 -0.74) (xy -1.66 -0.73) (xy -1.5 -0.11) (xy -1.14 0.39) (xy -0.67 0.75) (xy 0 0.86)
+							(xy 0.67 0.73) (xy 1.21 0.34) (xy 1.57 -0.21)
+						)
+						(width 0.2)
+						(fill yes)
+					)
+					(gr_arc
+						(start 1.75 -0.81)
+						(mid 0 0.94)
+						(end -1.75 -0.81)
+						(width 0.1)
+					)
+					(gr_line
+						(start 1.75 -0.81)
+						(end -1.75 -0.81)
+						(width 0.1)
+					)
+				)
 				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
@@ -189,7 +251,27 @@
 				(options
 					(anchor rect)
 				)
-				(primitives)
+				(primitives
+					(gr_poly
+						(pts
+							(xy 1.69 -0.74) (xy -1.66 -0.73) (xy -1.5 -0.11) (xy -1.14 0.39) (xy -0.67 0.75) (xy 0 0.86)
+							(xy 0.67 0.73) (xy 1.21 0.34) (xy 1.57 -0.21)
+						)
+						(width 0.2)
+						(fill yes)
+					)
+					(gr_arc
+						(start 1.75 -0.81)
+						(mid 0 0.94)
+						(end -1.75 -0.81)
+						(width 0.1)
+					)
+					(gr_line
+						(start 1.75 -0.81)
+						(end -1.75 -0.81)
+						(width 0.1)
+					)
+				)
 				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
