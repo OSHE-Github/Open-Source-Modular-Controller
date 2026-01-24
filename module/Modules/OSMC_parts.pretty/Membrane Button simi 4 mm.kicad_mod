@@ -1,0 +1,199 @@
+(footprint "Membrane Button simi 4 mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "S**"
+		(at 0.03 -5.38 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "53b7ba94-bcb5-42df-a1c5-2bd17621e4ba")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Membrane Button simi 4 mm"
+		(at 0.08 -3.23 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8af790cf-2c81-4262-92e2-005492502dda")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1f0e3d75-b4f4-4d87-bcee-e825db300a90")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ef58f2fe-7774-4459-934e-edc6737bf3e1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center 0 0)
+		(end 2.1 0.02)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "c7bbb3f4-545d-45ff-bb74-3f26052d1996")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2.26 -0.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "353cb704-e4c2-4328-833f-6342c10684e0")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.14 -7.22 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b6f50d97-e19d-4739-9c74-fc114d13800a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd custom
+		(at 0.95 0 90)
+		(size 1.7 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_line
+				(start 1.75 -0.81)
+				(end -1.75 -0.81)
+				(width 0.1)
+			)
+			(gr_arc
+				(start 1.75 -0.81)
+				(mid 0 0.94)
+				(end -1.75 -0.81)
+				(width 0.1)
+			)
+			(gr_poly
+				(pts
+					(xy 1.69 -0.74) (xy -1.66 -0.73) (xy -1.5 -0.11) (xy -1.14 0.39) (xy -0.67 0.75) (xy 0 0.86) (xy 0.67 0.73)
+					(xy 1.21 0.34) (xy 1.57 -0.21)
+				)
+				(width 0.2)
+				(fill yes)
+			)
+		)
+		(uuid "f0ecbcfe-e6d3-49f4-84e8-60687d79986d")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape custom)
+				(size 2.54 1.27)
+				(options
+					(anchor rect)
+				)
+				(primitives)
+				(zone_connect -1)
+			)
+			(layer "B.Cu"
+				(shape custom)
+				(size 2.54 1.27)
+				(options
+					(anchor rect)
+				)
+				(primitives)
+				(zone_connect -1)
+			)
+		)
+	)
+	(pad "2" smd custom
+		(at -0.95 0 270)
+		(size 1.7 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 1.69 -0.74) (xy -1.66 -0.73) (xy -1.5 -0.11) (xy -1.14 0.39) (xy -0.67 0.75) (xy 0 0.86) (xy 0.67 0.73)
+					(xy 1.21 0.34) (xy 1.57 -0.21)
+				)
+				(width 0.2)
+				(fill yes)
+			)
+			(gr_arc
+				(start 1.75 -0.81)
+				(mid 0 0.94)
+				(end -1.75 -0.81)
+				(width 0.1)
+			)
+			(gr_line
+				(start 1.75 -0.81)
+				(end -1.75 -0.81)
+				(width 0.1)
+			)
+		)
+		(uuid "367e3b9a-5bee-45ea-bfd9-54363f28ca01")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape custom)
+				(size 2.54 1.27)
+				(options
+					(anchor rect)
+				)
+				(primitives)
+				(thermal_bridge_angle 45)
+				(zone_connect -1)
+			)
+			(layer "B.Cu"
+				(shape custom)
+				(size 2.54 1.27)
+				(options
+					(anchor rect)
+				)
+				(primitives)
+				(thermal_bridge_angle 45)
+				(zone_connect -1)
+			)
+		)
+	)
+	(embedded_fonts no)
+)

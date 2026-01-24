@@ -3415,7 +3415,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OSMC_parts:XIAO-ESP32-S3-DIP"
+		(property "Footprint" ""
 			(at -8.89 5.08 0)
 			(effects
 				(font
