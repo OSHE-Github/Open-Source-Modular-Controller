@@ -536,7 +536,7 @@
 		(layer "User.4")
 		(uuid "336a5211-a141-4477-9b94-c0f51b710e5b")
 		(pts
-			(xy 248.55 127.7375) (xy 237.95 117.5375)
+			(xy -0.02 0.01) (xy -10.62 -10.19)
 		)
 		(height 23.125)
 		(orientation 1)
@@ -558,7 +558,7 @@
 			(keep_text_aligned yes)
 		)
 		(gr_text "10.2"
-			(at 270.575 122.6375 90)
+			(at 22.005 -5.09 90)
 			(layer "User.4")
 			(uuid "336a5211-a141-4477-9b94-c0f51b710e5b")
 			(effects
@@ -574,7 +574,7 @@
 		(layer "User.4")
 		(uuid "3be5ca82-cf10-4a3a-a611-70f0eafcfaeb")
 		(pts
-			(xy 265.55 149.0875) (xy 260.45 149.1375)
+			(xy 16.98 21.36) (xy 11.88 21.41)
 		)
 		(height 11.9)
 		(orientation 0)
@@ -596,7 +596,7 @@
 			(keep_text_aligned yes)
 		)
 		(gr_text "5.1"
-			(at 263 159.8375 0)
+			(at 14.43 32.11 0)
 			(layer "User.4")
 			(uuid "3be5ca82-cf10-4a3a-a611-70f0eafcfaeb")
 			(effects
@@ -612,7 +612,7 @@
 		(layer "User.4")
 		(uuid "52a2dbdb-b633-43a3-8b7c-bb31d10ed8c4")
 		(pts
-			(xy 231.55 149.0875) (xy 236.65 149.0375)
+			(xy -17.02 21.36) (xy -11.92 21.31)
 		)
 		(height 10.175)
 		(orientation 0)
@@ -634,7 +634,7 @@
 			(keep_text_aligned yes)
 		)
 		(gr_text "5.1"
-			(at 234.1 158.1125 0)
+			(at -14.47 30.385 0)
 			(layer "User.4")
 			(uuid "52a2dbdb-b633-43a3-8b7c-bb31d10ed8c4")
 			(effects
@@ -650,7 +650,7 @@
 		(layer "User.4")
 		(uuid "579f6e78-5855-477f-b62f-1b96c4da1a76")
 		(pts
-			(xy 264.55 127.7375) (xy 264.55 151.7375)
+			(xy 15.98 0.01) (xy 15.98 24.01)
 		)
 		(height 12.01)
 		(orientation 1)
@@ -672,7 +672,7 @@
 			(keep_text_aligned yes)
 		)
 		(gr_text "24"
-			(at 275.41 139.7375 90)
+			(at 26.84 12.01 90)
 			(layer "User.4")
 			(uuid "579f6e78-5855-477f-b62f-1b96c4da1a76")
 			(effects
@@ -688,7 +688,7 @@
 		(layer "User.4")
 		(uuid "9afb1463-a0ee-4e71-ac42-664ebf915f6a")
 		(pts
-			(xy 248.55 127.7375) (xy 248.55 149.0875)
+			(xy -0.02 0.01) (xy -0.02 21.36)
 		)
 		(height 24.85)
 		(orientation 1)
@@ -710,7 +710,7 @@
 			(keep_text_aligned yes)
 		)
 		(gr_text "21.35"
-			(at 272.3 138.4125 90)
+			(at 23.73 10.685 90)
 			(layer "User.4")
 			(uuid "9afb1463-a0ee-4e71-ac42-664ebf915f6a")
 			(effects
@@ -726,7 +726,7 @@
 		(layer "User.4")
 		(uuid "c5dcfbf4-30a9-47be-bfaf-9f8fbf231dcd")
 		(pts
-			(xy 265.55 151.7375) (xy 231.55 151.7375)
+			(xy 16.98 24.01) (xy -17.02 24.01)
 		)
 		(height 11.92)
 		(orientation 0)
@@ -748,7 +748,7 @@
 			(keep_text_aligned yes)
 		)
 		(gr_text "34"
-			(at 248.55 162.5075 0)
+			(at -0.02 34.78 0)
 			(layer "User.4")
 			(uuid "c5dcfbf4-30a9-47be-bfaf-9f8fbf231dcd")
 			(effects
@@ -764,7 +764,7 @@
 		(layer "User.4")
 		(uuid "f9f2e5af-8f1c-4243-890d-0f28fe700e8f")
 		(pts
-			(xy 248.55 127.7375) (xy 258.75 127.7375)
+			(xy -0.02 0.01) (xy 10.18 0.01)
 		)
 		(height -22.525)
 		(orientation 0)
@@ -786,7 +786,7 @@
 			(keep_text_aligned yes)
 		)
 		(gr_text "10.2"
-			(at 253.65 104.1125 0)
+			(at 5.08 -23.615 0)
 			(layer "User.4")
 			(uuid "f9f2e5af-8f1c-4243-890d-0f28fe700e8f")
 			(effects
@@ -802,7 +802,7 @@
 		(layer "User.4")
 		(uuid "fa8073e5-ff67-44b5-a5df-11729976eff8")
 		(pts
-			(xy 248.55 127.7375) (xy 238.35 128.1375)
+			(xy -0.02 0.01) (xy -10.22 0.41)
 		)
 		(height -22.425)
 		(orientation 0)
@@ -824,7 +824,7 @@
 			(keep_text_aligned yes)
 		)
 		(gr_text "10.2"
-			(at 243.45 104.2125 0)
+			(at -5.12 -23.515 0)
 			(layer "User.4")
 			(uuid "fa8073e5-ff67-44b5-a5df-11729976eff8")
 			(effects

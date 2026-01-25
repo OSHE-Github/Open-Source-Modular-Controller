@@ -1,4 +1,4 @@
-46684536598630191
+46686305950970633
 12402012E212A
 USB_C_Receptacle_HRO_TYPE-C-31-M-12
 USB Type-C receptacle for USB 2.0 and PD, http://www.krhro.com/uploads/soft/180320/1-1P320120243.pdf
@@ -73562,6 +73562,13 @@ Module standard small
 0
 0
 0
+OSMC_parts
+Button Spacing
+
+
+0
+24
+8
 OSMC_parts
 C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
 Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator

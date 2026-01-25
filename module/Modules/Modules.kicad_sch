@@ -5,6 +5,423 @@
 	(uuid "c7166619-b781-4a53-a071-e3ce369183d9")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:Conn_01x08_Socket"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x08_Socket"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x08, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x08_Socket_1_1"
+				(polyline
+					(pts
+						(xy -1.27 7.62) (xy -0.508 7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 5.08) (xy -0.508 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy -0.508 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy -0.508 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -7.62) (xy -0.508 -7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -10.16) (xy -0.508 -10.16)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 7.112)
+					(mid -0.5058 7.62)
+					(end 0 8.128)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 4.572)
+					(mid -0.5058 5.08)
+					(end 0 5.588)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 2.032)
+					(mid -0.5058 2.54)
+					(end 0 3.048)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -0.508)
+					(mid -0.5058 0)
+					(end 0 0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -3.048)
+					(mid -0.5058 -2.54)
+					(end 0 -2.032)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -5.588)
+					(mid -0.5058 -5.08)
+					(end 0 -4.572)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -8.128)
+					(mid -0.5058 -7.62)
+					(end 0 -7.112)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -10.668)
+					(mid -0.5058 -10.16)
+					(end 0 -9.652)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 7.62 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -10.16 0)
+					(length 3.81)
+					(name "Pin_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Library:GND"
 			(power)
 			(pin_numbers
@@ -3780,6 +4197,156 @@
 						)
 					)
 					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7595,7 +8162,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OSMC_parts:XDCR_COM-09032"
+		(property "Footprint" "OSMC_parts:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
 			(at 189.23 156.21 0)
 			(effects
 				(font
@@ -7674,7 +8241,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "OSMC_parts:Module standard large"
+		(property "Footprint" "OSMC_parts:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 88.392 154.94 90)
 			(effects
 				(font
@@ -7742,7 +8309,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OSMC_parts:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical"
 			(at 203.2 156.21 0)
 			(effects
 				(font
@@ -7816,7 +8383,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OSMC_parts:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical"
 			(at 213.36 132.08 0)
 			(effects
 				(font
@@ -7892,7 +8459,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "OSMC_parts:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "OSMC_parts:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 56.642 106.68 90)
 			(effects
 				(font
@@ -7960,7 +8527,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OSMC_parts:PinSocket_1x04_P2.54mm_Vertical"
+		(property "Footprint" "OSMC_parts:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 262.89 21.59 0)
 			(effects
 				(font
@@ -8030,7 +8597,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "OSMC_parts:Module standard large"
+		(property "Footprint" "OSMC_parts:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 189.992 59.69 90)
 			(effects
 				(font
@@ -8100,7 +8667,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "OSMC_parts:Module standard large"
+		(property "Footprint" "OSMC_parts:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 158.242 153.67 90)
 			(effects
 				(font
@@ -8168,7 +8735,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OSMC_parts:XDCR_COM-09032"
+		(property "Footprint" "OSMC_parts:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
 			(at 240.03 156.21 0)
 			(effects
 				(font
@@ -8314,7 +8881,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OSMC_parts:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical"
 			(at 257.81 156.21 0)
 			(effects
 				(font
@@ -8454,7 +9021,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OSMC_parts:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical"
 			(at 193.04 132.08 0)
 			(effects
 				(font
@@ -8772,7 +9339,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "OSMC_parts:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "OSMC_parts:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 65.532 107.95 90)
 			(effects
 				(font
@@ -8841,7 +9408,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "OSMC_parts:Module standard large"
+		(property "Footprint" "OSMC_parts:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 112.522 90.17 90)
 			(effects
 				(font
@@ -8911,7 +9478,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "OSMC_parts:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "OSMC_parts:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 74.422 109.22 90)
 			(effects
 				(font
@@ -8981,7 +9548,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "OSMC_parts:Module standard large"
+		(property "Footprint" "OSMC_parts:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 127.762 55.88 90)
 			(effects
 				(font
@@ -9051,7 +9618,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "OSMC_parts:Module standard large"
+		(property "Footprint" "OSMC_parts:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 182.372 59.69 90)
 			(effects
 				(font
@@ -9244,7 +9811,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OSMC_parts:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical"
 			(at 267.97 132.08 0)
 			(effects
 				(font
@@ -9320,7 +9887,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "OSMC_parts:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "OSMC_parts:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 77.47 48.26 0)
 			(effects
 				(font
@@ -9413,7 +9980,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "OSMC_parts:Module standard large"
+		(property "Footprint" "OSMC_parts:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 112.522 64.77 90)
 			(effects
 				(font
@@ -9481,7 +10048,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OSMC_parts:XDCR_COM-09032"
+		(property "Footprint" "OSMC_parts:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
 			(at 222.25 156.21 0)
 			(effects
 				(font
@@ -9533,6 +10100,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 157.48 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "95549f22-b26b-4d7b-82fc-70bd3d6474af")
+		(property "Reference" "SW1"
+			(at 157.48 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 157.48 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "OSMC_parts:Membrane Button semi 4 mm"
+			(at 157.48 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 157.48 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "22aed2cf-63bd-4ae9-91e4-556dc963fa8f")
+		)
+		(pin "2"
+			(uuid "37932bab-ea7d-4baa-b659-86a7593568ce")
+		)
+		(instances
+			(project ""
+				(path "/c7166619-b781-4a53-a071-e3ce369183d9"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "OSMC_parts:Input_Module")
 		(at 232.41 83.82 0)
 		(unit 1)
@@ -9558,7 +10193,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OSMC_parts:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "OSMC_parts:Module standard large"
 			(at 232.41 83.82 0)
 			(effects
 				(font
@@ -9685,7 +10320,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "OSMC_parts:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "OSMC_parts:TSSOP-10_3x3mm_P0.5mm"
 			(at 152.4 101.6 0)
 			(effects
 				(font
@@ -9888,7 +10523,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "OSMC_parts:Module standard pin large"
+		(property "Footprint" "OSMC_parts:XDCR_COM-09032"
 			(at 45.72 44.45 0)
 			(effects
 				(font
@@ -10029,7 +10664,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "OSMC_parts:Module standard large"
+		(property "Footprint" "OSMC_parts:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 197.612 59.69 90)
 			(effects
 				(font
@@ -10072,6 +10707,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x08_Socket")
+		(at 171.45 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a99bd2e8-7f8e-4650-922c-6de81f93060e")
+		(property "Reference" "J12"
+			(at 172.72 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x08_Socket"
+			(at 172.72 121.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "OSMC_parts:Button Spacing"
+			(at 171.45 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 171.45 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x08, script generated"
+			(at 171.45 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "31fac9c8-85b4-45f0-94a9-6ef580224d87")
+		)
+		(pin "1"
+			(uuid "f12e171a-2644-484b-aba5-46b3cc5b85a3")
+		)
+		(pin "2"
+			(uuid "efaf8fc3-f267-49c4-a45e-2829394d4898")
+		)
+		(pin "4"
+			(uuid "0b2ba2ab-0276-4b31-a26c-0afeac441f31")
+		)
+		(pin "5"
+			(uuid "a3defacb-0be3-411c-acf7-09db3a6d271d")
+		)
+		(pin "3"
+			(uuid "6af59883-b63a-40c0-bed3-1cb59d6cdda8")
+		)
+		(pin "8"
+			(uuid "b1296da6-2466-4e94-a788-6bbea53dc3a1")
+		)
+		(pin "7"
+			(uuid "e49fe59f-5cb3-4c89-a5f1-c05e0ed24ec4")
+		)
+		(instances
+			(project ""
+				(path "/c7166619-b781-4a53-a071-e3ce369183d9"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "OSMC_parts:Input_Module_Pinless")
 		(at 264.16 82.55 0)
 		(unit 1)
@@ -10099,7 +10822,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OSMC_parts:TSSOP-10_3x3mm_P0.5mm"
+		(property "Footprint" "OSMC_parts:Module standard pin large"
 			(at 264.16 82.55 0)
 			(effects
 				(font
@@ -10161,7 +10884,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical"
+		(property "Footprint" "OSMC_parts:PinSocket_1x04_P2.54mm_Vertical"
 			(at 231.14 133.35 0)
 			(effects
 				(font
@@ -10240,7 +10963,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "OSMC_parts:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "OSMC_parts:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 47.752 104.14 90)
 			(effects
 				(font
@@ -10308,7 +11031,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OSMC_parts:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical"
 			(at 247.65 132.08 0)
 			(effects
 				(font
@@ -10384,7 +11107,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "OSMC_parts:Module standard large"
+		(property "Footprint" "OSMC_parts:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 96.012 154.94 90)
 			(effects
 				(font
@@ -10700,7 +11423,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OSMC_parts:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "OSMC_parts:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 246.38 34.798 90)
 			(effects
 				(font
@@ -10770,7 +11493,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "OSMC_parts:Module standard large"
+		(property "Footprint" "OSMC_parts:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 174.752 59.69 90)
 			(effects
 				(font
@@ -10919,7 +11642,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "OSMC_parts:Module standard large"
+		(property "Footprint" "OSMC_parts:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 135.382 55.88 90)
 			(effects
 				(font
@@ -10988,7 +11711,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "OSMC_parts:Module standard large"
+		(property "Footprint" "OSMC_parts:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 121.412 90.17 90)
 			(effects
 				(font
@@ -11056,7 +11779,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OSMC_parts:XDCR_COM-09032"
+		(property "Footprint" "OSMC_parts:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
 			(at 276.86 156.21 0)
 			(effects
 				(font
@@ -11199,7 +11922,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "OSMC_parts:Module standard large"
+		(property "Footprint" "OSMC_parts:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 165.862 153.67 90)
 			(effects
 				(font
@@ -11268,7 +11991,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "OSMC_parts:Module standard large"
+		(property "Footprint" "OSMC_parts:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 121.412 64.77 90)
 			(effects
 				(font
@@ -11336,7 +12059,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OSMC_parts:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "OSMC_parts:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 246.38 23.368 90)
 			(effects
 				(font
