@@ -1747,6 +1747,12 @@
 		(uuid "14b9770b-cbfa-4182-92ee-470f0973179e")
 	)
 	(junction
+		(at 134.62 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "337848dd-8f3b-42ae-8ae1-c8edfa6553f8")
+	)
+	(junction
 		(at 81.28 163.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1800,6 +1806,30 @@
 		(color 0 0 0 0)
 		(uuid "e5044a43-dacd-49ca-836b-3a98c6f36610")
 	)
+	(no_connect
+		(at 69.85 90.17)
+		(uuid "09a642a3-890a-422b-8329-dd42977212e3")
+	)
+	(no_connect
+		(at 69.85 82.55)
+		(uuid "44fa134b-b8f9-47e2-a28e-a2d69db8114c")
+	)
+	(no_connect
+		(at 69.85 105.41)
+		(uuid "4b4df24b-9ab4-4d97-868e-128b9b1821be")
+	)
+	(no_connect
+		(at 69.85 93.98)
+		(uuid "581d14db-9a03-465b-a848-555c954838a5")
+	)
+	(no_connect
+		(at 111.76 105.41)
+		(uuid "7d1ae62f-0f5c-499f-a9cd-9f2563a88e0c")
+	)
+	(no_connect
+		(at 69.85 86.36)
+		(uuid "bb22a797-c310-41a6-9f7e-ef48ea728f16")
+	)
 	(wire
 		(pts
 			(xy 39.37 190.5) (xy 39.37 191.77)
@@ -1812,7 +1842,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 97.79) (xy 115.57 97.79)
+			(xy 111.76 97.79) (xy 130.81 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1902,6 +1932,26 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 92.71) (xy 138.43 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31f20c66-ccfb-451a-b071-9415a8daf935")
+	)
+	(wire
+		(pts
+			(xy 134.62 83.82) (xy 134.62 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32a204ce-244f-4fac-914c-2dcefe741fb3")
+	)
+	(wire
+		(pts
 			(xy 111.76 153.67) (xy 101.6 153.67)
 		)
 		(stroke
@@ -1909,6 +1959,16 @@
 			(type default)
 		)
 		(uuid "335ed7e6-7273-4a08-b5de-b779d7610d3e")
+	)
+	(wire
+		(pts
+			(xy 130.81 83.82) (xy 134.62 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "365b06d1-7e73-4502-a2a2-cdf34beeaaa6")
 	)
 	(wire
 		(pts
@@ -2132,6 +2192,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 83.82) (xy 138.43 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c20538b-f9b8-4f6e-9c66-f650d9a3ed6d")
+	)
+	(wire
+		(pts
 			(xy 195.58 38.1) (xy 208.28 38.1)
 		)
 		(stroke
@@ -2162,6 +2232,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 92.71) (xy 130.81 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "833cf739-2124-44c9-9aa9-7038ebbe713e")
+	)
+	(wire
+		(pts
 			(xy 208.28 38.1) (xy 208.28 35.56)
 		)
 		(stroke
@@ -2179,6 +2259,16 @@
 			(type default)
 		)
 		(uuid "997efc7a-b323-4640-9833-25621ef1d2cc")
+	)
+	(wire
+		(pts
+			(xy 134.62 83.82) (xy 138.43 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cddb8b1-dc42-4716-adfd-554ed711b255")
 	)
 	(wire
 		(pts
@@ -2362,6 +2452,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 83.82) (xy 130.81 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7890fe8-357e-4287-bc36-eac0180d25af")
+	)
+	(wire
+		(pts
 			(xy 111.76 151.13) (xy 101.6 151.13)
 		)
 		(stroke
@@ -2392,7 +2492,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 101.6) (xy 115.57 101.6)
+			(xy 111.76 101.6) (xy 138.43 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2491,7 +2591,7 @@
 		(uuid "0ea7a88e-d63b-42de-b6d6-99852254773c")
 	)
 	(label "SDA1"
-		(at 115.57 97.79 0)
+		(at 130.81 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2520,7 +2620,7 @@
 		)
 		(uuid "2d94eb85-795e-4c77-a0a8-1d0b1e92b3c1")
 	)
-	(label "int"
+	(label "INT"
 		(at 254 36.83 180)
 		(effects
 			(font
@@ -2691,7 +2791,7 @@
 		(uuid "bb216918-4b85-489e-ab52-0a133d4a1c03")
 	)
 	(label "SCL1"
-		(at 115.57 101.6 0)
+		(at 130.81 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2749,6 +2849,16 @@
 			(justify left bottom)
 		)
 		(uuid "e841ccb4-e1f9-4e5d-ba53-892c2bb7ea03")
+	)
+	(label "Vdd"
+		(at 134.62 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f76177c0-d9a4-4192-b06a-78c5fee2cd42")
 	)
 	(hierarchical_label "P0"
 		(shape input)
@@ -3347,6 +3457,146 @@
 	)
 	(symbol
 		(lib_id "Library:R")
+		(at 138.43 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a006f4d-e14e-4d1c-8319-65218135e541")
+		(property "Reference" "R46"
+			(at 140.97 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 140.97 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 136.652 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 138.43 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "48ebcc35-ab64-4ebe-82c5-6c5379e5f866")
+		)
+		(pin "1"
+			(uuid "6da01f1e-6236-409b-ab75-b604e376c7eb")
+		)
+		(instances
+			(project "reciver board"
+				(path "/c7166619-b781-4a53-a071-e3ce369183d9"
+					(reference "R46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library:R")
+		(at 130.81 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ee43dbf-07ba-4f49-be9f-aca532645fc8")
+		(property "Reference" "R45"
+			(at 133.35 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 133.35 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 129.032 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 130.81 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6bc0afe3-3076-4467-ac34-68361eba53c9")
+		)
+		(pin "1"
+			(uuid "84b339ba-6fe7-44cb-beae-bc795b512d62")
+		)
+		(instances
+			(project "reciver board"
+				(path "/c7166619-b781-4a53-a071-e3ce369183d9"
+					(reference "R45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library:R")
 		(at 45.72 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3373,7 +3623,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 43.942 90.17 90)
 			(effects
 				(font
@@ -3830,7 +4080,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 51.562 90.17 90)
 			(effects
 				(font

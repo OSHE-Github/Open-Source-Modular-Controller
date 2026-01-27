@@ -192,20 +192,6 @@
 	(net 67 "unconnected-(J12-Pin_6-Pad6)")
 	(net 68 "unconnected-(J12-Pin_5-Pad5)")
 	(net 69 "unconnected-(J12-Pin_7-Pad7)")
-	(net 70 "unconnected-(U12-Adr1-Pad10)")
-	(net 71 "unconnected-(U12-CH2+-Pad3)")
-	(net 72 "unconnected-(U12-CH3--Pad12)")
-	(net 73 "unconnected-(U12-SCL-Pad8)")
-	(net 74 "unconnected-(U12-V_{SS}-Pad5)")
-	(net 75 "unconnected-(U12-CH1--Pad2)")
-	(net 76 "unconnected-(U12-CH3+-Pad11)")
-	(net 77 "unconnected-(U12-V_{DD}-Pad6)")
-	(net 78 "unconnected-(U12-CH4--Pad14)")
-	(net 79 "unconnected-(U12-SDA-Pad7)")
-	(net 80 "unconnected-(U12-CH2--Pad4)")
-	(net 81 "unconnected-(U12-CH4+-Pad13)")
-	(net 82 "unconnected-(U12-Adr0-Pad9)")
-	(net 83 "unconnected-(U12-CH1+-Pad1)")
 	(footprint "OSMC_parts:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "02a7b7d3-ecf9-4550-9c3b-75d9b9bce62d")
@@ -2966,7 +2952,7 @@
 	(footprint "OSMC_parts:XDCR_COM-09032"
 		(layer "F.Cu")
 		(uuid "23b30f2a-17b7-49e9-a0c4-4ba0eeb7c603")
-		(at 248 58.618781)
+		(at 168.624777 151.61)
 		(property "Reference" "U1"
 			(at -2.625 -15.235 0)
 			(layer "F.SilkS")
@@ -7860,7 +7846,7 @@
 			(roundrect_rratio 0.208333)
 			(net 25 "unconnected-(U2-PadMP)")
 			(pintype "passive")
-			(uuid "5052c6e8-34b4-4461-ac54-aa027a1147bf")
+			(uuid "ee3bb788-19df-4a8c-94ee-436acd3a3416")
 		)
 		(pad "MP" smd roundrect
 			(at 8.4 22.51)
@@ -7869,7 +7855,7 @@
 			(roundrect_rratio 0.208333)
 			(net 25 "unconnected-(U2-PadMP)")
 			(pintype "passive")
-			(uuid "00bc602e-cc37-4172-bca8-c094179d2e7f")
+			(uuid "ee3bb788-19df-4a8c-94ee-436acd3a3416")
 		)
 		(pad "MP" smd roundrect
 			(at 14 22.51)
@@ -7878,7 +7864,7 @@
 			(roundrect_rratio 0.208333)
 			(net 25 "unconnected-(U2-PadMP)")
 			(pintype "passive")
-			(uuid "4ac3a072-6c15-4238-94bb-810c8472e66f")
+			(uuid "ee3bb788-19df-4a8c-94ee-436acd3a3416")
 		)
 		(group ""
 			(uuid "66dd210c-884b-4d0a-9dde-49e5e9d95e25")
@@ -10627,25 +10613,6 @@
 							(width 0.2)
 							(fill yes)
 						)
-						(gr_line
-							(start 1.75 -0.81)
-							(end -1.75 -0.81)
-							(width 0.1)
-						)
-						(gr_arc
-							(start 1.75 -0.81)
-							(mid 0 0.94)
-							(end -1.75 -0.81)
-							(width 0.1)
-						)
-						(gr_poly
-							(pts
-								(xy 1.69 -0.74) (xy -1.66 -0.73) (xy -1.5 -0.11) (xy -1.14 0.39) (xy -0.67 0.75) (xy 0 0.86)
-								(xy 0.67 0.73) (xy 1.21 0.34) (xy 1.57 -0.21)
-							)
-							(width 0.2)
-							(fill yes)
-						)
 					)
 					(thermal_bridge_angle 45)
 					(zone_connect -1)
@@ -10657,25 +10624,6 @@
 						(anchor rect)
 					)
 					(primitives
-						(gr_line
-							(start 1.75 -0.81)
-							(end -1.75 -0.81)
-							(width 0.1)
-						)
-						(gr_arc
-							(start 1.75 -0.81)
-							(mid 0 0.94)
-							(end -1.75 -0.81)
-							(width 0.1)
-						)
-						(gr_poly
-							(pts
-								(xy 1.69 -0.74) (xy -1.66 -0.73) (xy -1.5 -0.11) (xy -1.14 0.39) (xy -0.67 0.75) (xy 0 0.86)
-								(xy 0.67 0.73) (xy 1.21 0.34) (xy 1.57 -0.21)
-							)
-							(width 0.2)
-							(fill yes)
-						)
 						(gr_line
 							(start 1.75 -0.81)
 							(end -1.75 -0.81)
@@ -10801,25 +10749,6 @@
 							(end -1.75 -0.81)
 							(width 0.1)
 						)
-						(gr_poly
-							(pts
-								(xy 1.69 -0.74) (xy -1.66 -0.73) (xy -1.5 -0.11) (xy -1.14 0.39) (xy -0.67 0.75) (xy 0 0.86)
-								(xy 0.67 0.73) (xy 1.21 0.34) (xy 1.57 -0.21)
-							)
-							(width 0.2)
-							(fill yes)
-						)
-						(gr_arc
-							(start 1.75 -0.81)
-							(mid 0 0.94)
-							(end -1.75 -0.81)
-							(width 0.1)
-						)
-						(gr_line
-							(start 1.75 -0.81)
-							(end -1.75 -0.81)
-							(width 0.1)
-						)
 					)
 					(thermal_bridge_angle 45)
 					(zone_connect -1)
@@ -10831,25 +10760,6 @@
 						(anchor rect)
 					)
 					(primitives
-						(gr_poly
-							(pts
-								(xy 1.69 -0.74) (xy -1.66 -0.73) (xy -1.5 -0.11) (xy -1.14 0.39) (xy -0.67 0.75) (xy 0 0.86)
-								(xy 0.67 0.73) (xy 1.21 0.34) (xy 1.57 -0.21)
-							)
-							(width 0.2)
-							(fill yes)
-						)
-						(gr_arc
-							(start 1.75 -0.81)
-							(mid 0 0.94)
-							(end -1.75 -0.81)
-							(width 0.1)
-						)
-						(gr_line
-							(start 1.75 -0.81)
-							(end -1.75 -0.81)
-							(width 0.1)
-						)
 						(gr_poly
 							(pts
 								(xy 1.69 -0.74) (xy -1.66 -0.73) (xy -1.5 -0.11) (xy -1.14 0.39) (xy -0.67 0.75) (xy 0 0.86)
@@ -17846,25 +17756,6 @@
 							(width 0.2)
 							(fill yes)
 						)
-						(gr_line
-							(start 1.75 -0.81)
-							(end -1.75 -0.81)
-							(width 0.1)
-						)
-						(gr_arc
-							(start 1.75 -0.81)
-							(mid 0 0.94)
-							(end -1.75 -0.81)
-							(width 0.1)
-						)
-						(gr_poly
-							(pts
-								(xy 1.69 -0.74) (xy -1.66 -0.73) (xy -1.5 -0.11) (xy -1.14 0.39) (xy -0.67 0.75) (xy 0 0.86)
-								(xy 0.67 0.73) (xy 1.21 0.34) (xy 1.57 -0.21)
-							)
-							(width 0.2)
-							(fill yes)
-						)
 					)
 					(thermal_bridge_angle 45)
 					(zone_connect -1)
@@ -17876,25 +17767,6 @@
 						(anchor rect)
 					)
 					(primitives
-						(gr_line
-							(start 1.75 -0.81)
-							(end -1.75 -0.81)
-							(width 0.1)
-						)
-						(gr_arc
-							(start 1.75 -0.81)
-							(mid 0 0.94)
-							(end -1.75 -0.81)
-							(width 0.1)
-						)
-						(gr_poly
-							(pts
-								(xy 1.69 -0.74) (xy -1.66 -0.73) (xy -1.5 -0.11) (xy -1.14 0.39) (xy -0.67 0.75) (xy 0 0.86)
-								(xy 0.67 0.73) (xy 1.21 0.34) (xy 1.57 -0.21)
-							)
-							(width 0.2)
-							(fill yes)
-						)
 						(gr_line
 							(start 1.75 -0.81)
 							(end -1.75 -0.81)
@@ -18156,25 +18028,6 @@
 							(end -1.75 -0.81)
 							(width 0.1)
 						)
-						(gr_poly
-							(pts
-								(xy 1.69 -0.74) (xy -1.66 -0.73) (xy -1.5 -0.11) (xy -1.14 0.39) (xy -0.67 0.75) (xy 0 0.86)
-								(xy 0.67 0.73) (xy 1.21 0.34) (xy 1.57 -0.21)
-							)
-							(width 0.2)
-							(fill yes)
-						)
-						(gr_arc
-							(start 1.75 -0.81)
-							(mid 0 0.94)
-							(end -1.75 -0.81)
-							(width 0.1)
-						)
-						(gr_line
-							(start 1.75 -0.81)
-							(end -1.75 -0.81)
-							(width 0.1)
-						)
 					)
 					(thermal_bridge_angle 45)
 					(zone_connect -1)
@@ -18186,25 +18039,6 @@
 						(anchor rect)
 					)
 					(primitives
-						(gr_poly
-							(pts
-								(xy 1.69 -0.74) (xy -1.66 -0.73) (xy -1.5 -0.11) (xy -1.14 0.39) (xy -0.67 0.75) (xy 0 0.86)
-								(xy 0.67 0.73) (xy 1.21 0.34) (xy 1.57 -0.21)
-							)
-							(width 0.2)
-							(fill yes)
-						)
-						(gr_arc
-							(start 1.75 -0.81)
-							(mid 0 0.94)
-							(end -1.75 -0.81)
-							(width 0.1)
-						)
-						(gr_line
-							(start 1.75 -0.81)
-							(end -1.75 -0.81)
-							(width 0.1)
-						)
 						(gr_poly
 							(pts
 								(xy 1.69 -0.74) (xy -1.66 -0.73) (xy -1.5 -0.11) (xy -1.14 0.39) (xy -0.67 0.75) (xy 0 0.86)
@@ -18473,25 +18307,6 @@
 							(width 0.2)
 							(fill yes)
 						)
-						(gr_line
-							(start 1.75 -0.81)
-							(end -1.75 -0.81)
-							(width 0.1)
-						)
-						(gr_arc
-							(start 1.75 -0.81)
-							(mid 0 0.94)
-							(end -1.75 -0.81)
-							(width 0.1)
-						)
-						(gr_poly
-							(pts
-								(xy 1.69 -0.74) (xy -1.66 -0.73) (xy -1.5 -0.11) (xy -1.14 0.39) (xy -0.67 0.75) (xy 0 0.86)
-								(xy 0.67 0.73) (xy 1.21 0.34) (xy 1.57 -0.21)
-							)
-							(width 0.2)
-							(fill yes)
-						)
 					)
 					(thermal_bridge_angle 45)
 					(zone_connect -1)
@@ -18503,25 +18318,6 @@
 						(anchor rect)
 					)
 					(primitives
-						(gr_line
-							(start 1.75 -0.81)
-							(end -1.75 -0.81)
-							(width 0.1)
-						)
-						(gr_arc
-							(start 1.75 -0.81)
-							(mid 0 0.94)
-							(end -1.75 -0.81)
-							(width 0.1)
-						)
-						(gr_poly
-							(pts
-								(xy 1.69 -0.74) (xy -1.66 -0.73) (xy -1.5 -0.11) (xy -1.14 0.39) (xy -0.67 0.75) (xy 0 0.86)
-								(xy 0.67 0.73) (xy 1.21 0.34) (xy 1.57 -0.21)
-							)
-							(width 0.2)
-							(fill yes)
-						)
 						(gr_line
 							(start 1.75 -0.81)
 							(end -1.75 -0.81)
@@ -18843,25 +18639,6 @@
 							(end -1.75 -0.81)
 							(width 0.1)
 						)
-						(gr_poly
-							(pts
-								(xy 1.69 -0.74) (xy -1.66 -0.73) (xy -1.5 -0.11) (xy -1.14 0.39) (xy -0.67 0.75) (xy 0 0.86)
-								(xy 0.67 0.73) (xy 1.21 0.34) (xy 1.57 -0.21)
-							)
-							(width 0.2)
-							(fill yes)
-						)
-						(gr_arc
-							(start 1.75 -0.81)
-							(mid 0 0.94)
-							(end -1.75 -0.81)
-							(width 0.1)
-						)
-						(gr_line
-							(start 1.75 -0.81)
-							(end -1.75 -0.81)
-							(width 0.1)
-						)
 					)
 					(thermal_bridge_angle 45)
 					(zone_connect -1)
@@ -18873,25 +18650,6 @@
 						(anchor rect)
 					)
 					(primitives
-						(gr_poly
-							(pts
-								(xy 1.69 -0.74) (xy -1.66 -0.73) (xy -1.5 -0.11) (xy -1.14 0.39) (xy -0.67 0.75) (xy 0 0.86)
-								(xy 0.67 0.73) (xy 1.21 0.34) (xy 1.57 -0.21)
-							)
-							(width 0.2)
-							(fill yes)
-						)
-						(gr_arc
-							(start 1.75 -0.81)
-							(mid 0 0.94)
-							(end -1.75 -0.81)
-							(width 0.1)
-						)
-						(gr_line
-							(start 1.75 -0.81)
-							(end -1.75 -0.81)
-							(width 0.1)
-						)
 						(gr_poly
 							(pts
 								(xy 1.69 -0.74) (xy -1.66 -0.73) (xy -1.5 -0.11) (xy -1.14 0.39) (xy -0.67 0.75) (xy 0 0.86)
@@ -19179,25 +18937,6 @@
 							(width 0.2)
 							(fill yes)
 						)
-						(gr_line
-							(start 1.75 -0.81)
-							(end -1.75 -0.81)
-							(width 0.1)
-						)
-						(gr_arc
-							(start 1.75 -0.81)
-							(mid 0 0.94)
-							(end -1.75 -0.81)
-							(width 0.1)
-						)
-						(gr_poly
-							(pts
-								(xy 1.69 -0.74) (xy -1.66 -0.73) (xy -1.5 -0.11) (xy -1.14 0.39) (xy -0.67 0.75) (xy 0 0.86)
-								(xy 0.67 0.73) (xy 1.21 0.34) (xy 1.57 -0.21)
-							)
-							(width 0.2)
-							(fill yes)
-						)
 					)
 					(thermal_bridge_angle 45)
 					(zone_connect -1)
@@ -19209,25 +18948,6 @@
 						(anchor rect)
 					)
 					(primitives
-						(gr_line
-							(start 1.75 -0.81)
-							(end -1.75 -0.81)
-							(width 0.1)
-						)
-						(gr_arc
-							(start 1.75 -0.81)
-							(mid 0 0.94)
-							(end -1.75 -0.81)
-							(width 0.1)
-						)
-						(gr_poly
-							(pts
-								(xy 1.69 -0.74) (xy -1.66 -0.73) (xy -1.5 -0.11) (xy -1.14 0.39) (xy -0.67 0.75) (xy 0 0.86)
-								(xy 0.67 0.73) (xy 1.21 0.34) (xy 1.57 -0.21)
-							)
-							(width 0.2)
-							(fill yes)
-						)
 						(gr_line
 							(start 1.75 -0.81)
 							(end -1.75 -0.81)
@@ -19527,25 +19247,6 @@
 							(end -1.75 -0.81)
 							(width 0.1)
 						)
-						(gr_poly
-							(pts
-								(xy 1.69 -0.74) (xy -1.66 -0.73) (xy -1.5 -0.11) (xy -1.14 0.39) (xy -0.67 0.75) (xy 0 0.86)
-								(xy 0.67 0.73) (xy 1.21 0.34) (xy 1.57 -0.21)
-							)
-							(width 0.2)
-							(fill yes)
-						)
-						(gr_arc
-							(start 1.75 -0.81)
-							(mid 0 0.94)
-							(end -1.75 -0.81)
-							(width 0.1)
-						)
-						(gr_line
-							(start 1.75 -0.81)
-							(end -1.75 -0.81)
-							(width 0.1)
-						)
 					)
 					(thermal_bridge_angle 45)
 					(zone_connect -1)
@@ -19557,25 +19258,6 @@
 						(anchor rect)
 					)
 					(primitives
-						(gr_poly
-							(pts
-								(xy 1.69 -0.74) (xy -1.66 -0.73) (xy -1.5 -0.11) (xy -1.14 0.39) (xy -0.67 0.75) (xy 0 0.86)
-								(xy 0.67 0.73) (xy 1.21 0.34) (xy 1.57 -0.21)
-							)
-							(width 0.2)
-							(fill yes)
-						)
-						(gr_arc
-							(start 1.75 -0.81)
-							(mid 0 0.94)
-							(end -1.75 -0.81)
-							(width 0.1)
-						)
-						(gr_line
-							(start 1.75 -0.81)
-							(end -1.75 -0.81)
-							(width 0.1)
-						)
 						(gr_poly
 							(pts
 								(xy 1.69 -0.74) (xy -1.66 -0.73) (xy -1.5 -0.11) (xy -1.14 0.39) (xy -0.67 0.75) (xy 0 0.86)
@@ -19904,25 +19586,6 @@
 							(width 0.2)
 							(fill yes)
 						)
-						(gr_line
-							(start 1.75 -0.81)
-							(end -1.75 -0.81)
-							(width 0.1)
-						)
-						(gr_arc
-							(start 1.75 -0.81)
-							(mid 0 0.94)
-							(end -1.75 -0.81)
-							(width 0.1)
-						)
-						(gr_poly
-							(pts
-								(xy 1.69 -0.74) (xy -1.66 -0.73) (xy -1.5 -0.11) (xy -1.14 0.39) (xy -0.67 0.75) (xy 0 0.86)
-								(xy 0.67 0.73) (xy 1.21 0.34) (xy 1.57 -0.21)
-							)
-							(width 0.2)
-							(fill yes)
-						)
 					)
 					(thermal_bridge_angle 45)
 					(zone_connect -1)
@@ -19934,25 +19597,6 @@
 						(anchor rect)
 					)
 					(primitives
-						(gr_line
-							(start 1.75 -0.81)
-							(end -1.75 -0.81)
-							(width 0.1)
-						)
-						(gr_arc
-							(start 1.75 -0.81)
-							(mid 0 0.94)
-							(end -1.75 -0.81)
-							(width 0.1)
-						)
-						(gr_poly
-							(pts
-								(xy 1.69 -0.74) (xy -1.66 -0.73) (xy -1.5 -0.11) (xy -1.14 0.39) (xy -0.67 0.75) (xy 0 0.86)
-								(xy 0.67 0.73) (xy 1.21 0.34) (xy 1.57 -0.21)
-							)
-							(width 0.2)
-							(fill yes)
-						)
 						(gr_line
 							(start 1.75 -0.81)
 							(end -1.75 -0.81)
@@ -20268,25 +19912,6 @@
 							(end -1.75 -0.81)
 							(width 0.1)
 						)
-						(gr_poly
-							(pts
-								(xy 1.69 -0.74) (xy -1.66 -0.73) (xy -1.5 -0.11) (xy -1.14 0.39) (xy -0.67 0.75) (xy 0 0.86)
-								(xy 0.67 0.73) (xy 1.21 0.34) (xy 1.57 -0.21)
-							)
-							(width 0.2)
-							(fill yes)
-						)
-						(gr_arc
-							(start 1.75 -0.81)
-							(mid 0 0.94)
-							(end -1.75 -0.81)
-							(width 0.1)
-						)
-						(gr_line
-							(start 1.75 -0.81)
-							(end -1.75 -0.81)
-							(width 0.1)
-						)
 					)
 					(thermal_bridge_angle 45)
 					(zone_connect -1)
@@ -20298,25 +19923,6 @@
 						(anchor rect)
 					)
 					(primitives
-						(gr_poly
-							(pts
-								(xy 1.69 -0.74) (xy -1.66 -0.73) (xy -1.5 -0.11) (xy -1.14 0.39) (xy -0.67 0.75) (xy 0 0.86)
-								(xy 0.67 0.73) (xy 1.21 0.34) (xy 1.57 -0.21)
-							)
-							(width 0.2)
-							(fill yes)
-						)
-						(gr_arc
-							(start 1.75 -0.81)
-							(mid 0 0.94)
-							(end -1.75 -0.81)
-							(width 0.1)
-						)
-						(gr_line
-							(start 1.75 -0.81)
-							(end -1.75 -0.81)
-							(width 0.1)
-						)
 						(gr_poly
 							(pts
 								(xy 1.69 -0.74) (xy -1.66 -0.73) (xy -1.5 -0.11) (xy -1.14 0.39) (xy -0.67 0.75) (xy 0 0.86)
@@ -21345,411 +20951,6 @@
 		)
 		(embedded_fonts no)
 		(model "${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-		(layer "F.Cu")
-		(uuid "f33d79ce-864c-4ac7-aec2-0fc0c452a487")
-		(at 247.995 58.62)
-		(descr "SOIC, 14 Pin (JEDEC MS-012AB, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_14.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
-		(tags "SOIC SO")
-		(property "Reference" "U12"
-			(at 0 -5.28 0)
-			(layer "F.SilkS")
-			(uuid "71d3d140-1633-4731-be7d-a0d5c2c00182")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "MCP3428x-xSL"
-			(at 0 5.28 0)
-			(layer "F.Fab")
-			(uuid "c074bdcb-ec86-4363-bc63-215b69d3b6c3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/22226a.pdf"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7492545d-b2e2-4a96-9ae9-0940815fafeb")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "16-Bit, Multi-Channel ΔΣ Analog-to-Digital Converter with I2C Interface and On-Board Reference, SOIC-14"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f0af08f4-f213-4f84-8080-cc6e297e6fcc")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "SOIC*3.9x8.7mm*P1.27mm*")
-		(path "/9d5512e1-a198-4797-b579-fe4036cf3de6")
-		(sheetname "/")
-		(sheetfile "Modules.kicad_sch")
-		(attr smd)
-		(fp_line
-			(start 0 -4.435)
-			(end -1.95 -4.435)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "5fe733c4-1640-49de-9048-78e123c8c161")
-		)
-		(fp_line
-			(start 0 -4.435)
-			(end 1.95 -4.435)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "f4f0b729-3bb5-4059-8a91-ea7f7ea42e83")
-		)
-		(fp_line
-			(start 0 4.435)
-			(end -1.95 4.435)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "f59ade18-1175-43af-abe4-639627ac224e")
-		)
-		(fp_line
-			(start 0 4.435)
-			(end 1.95 4.435)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "29abdfd3-e05f-4009-a68b-76d12e8f5d82")
-		)
-		(fp_poly
-			(pts
-				(xy -2.7 -4.37) (xy -2.94 -4.7) (xy -2.46 -4.7)
-			)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(fill yes)
-			(layer "F.SilkS")
-			(uuid "b963a3b6-91dc-4e17-8b8a-23b84625667e")
-		)
-		(fp_line
-			(start -3.7 -4.36)
-			(end -2.2 -4.36)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "313ce1bd-5d9b-41f7-8714-e2b36c14e1cc")
-		)
-		(fp_line
-			(start -3.7 4.36)
-			(end -3.7 -4.36)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "5da34e61-b3ba-438b-ab6c-1c021cbe7839")
-		)
-		(fp_line
-			(start -2.2 -4.58)
-			(end 2.2 -4.58)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "432f9ed8-a797-44ac-b051-1f66c9a0c039")
-		)
-		(fp_line
-			(start -2.2 -4.36)
-			(end -2.2 -4.58)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "88669dd6-01f1-470a-b025-f50e121a181e")
-		)
-		(fp_line
-			(start -2.2 4.36)
-			(end -3.7 4.36)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "e76315a2-1f29-45ef-8880-226706b55343")
-		)
-		(fp_line
-			(start -2.2 4.58)
-			(end -2.2 4.36)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "703c386e-289d-46ad-b7fe-e7be2dda8f15")
-		)
-		(fp_line
-			(start 2.2 -4.58)
-			(end 2.2 -4.36)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "e29e1ef4-d7de-4e72-8c87-71fb323e1f99")
-		)
-		(fp_line
-			(start 2.2 -4.36)
-			(end 3.7 -4.36)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "50ad9670-3c61-4bc4-a91a-fa40fe7c601a")
-		)
-		(fp_line
-			(start 2.2 4.36)
-			(end 2.2 4.58)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "c6b54932-a441-4ca9-be85-c000619950f7")
-		)
-		(fp_line
-			(start 2.2 4.58)
-			(end -2.2 4.58)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "c6826090-ea00-471c-87a3-51cbc8106d69")
-		)
-		(fp_line
-			(start 3.7 -4.36)
-			(end 3.7 4.36)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "4c4ddec9-9082-4a80-a2e8-29aee6bec986")
-		)
-		(fp_line
-			(start 3.7 4.36)
-			(end 2.2 4.36)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "567b286e-125f-4ba6-b000-e89fa08c03b8")
-		)
-		(fp_poly
-			(pts
-				(xy -1.95 -3.35) (xy -1.95 4.325) (xy 1.95 4.325) (xy 1.95 -4.325) (xy -0.975 -4.325)
-			)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.Fab")
-			(uuid "e106af55-1f38-4f7a-ad10-0d51fd98d4d4")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "e846bc79-3030-44de-9032-fff8ff1adc62")
-			(effects
-				(font
-					(size 0.98 0.98)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at -2.475 -3.81)
-			(size 1.95 0.6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net 83 "unconnected-(U12-CH1+-Pad1)")
-			(pinfunction "CH1+")
-			(pintype "input")
-			(uuid "bd0c9941-5365-459c-a06d-b46b205421f9")
-		)
-		(pad "2" smd roundrect
-			(at -2.475 -2.54)
-			(size 1.95 0.6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net 75 "unconnected-(U12-CH1--Pad2)")
-			(pinfunction "CH1-")
-			(pintype "input")
-			(uuid "3d85a511-6e62-49b4-aa53-d4bebcfa494b")
-		)
-		(pad "3" smd roundrect
-			(at -2.475 -1.27)
-			(size 1.95 0.6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net 71 "unconnected-(U12-CH2+-Pad3)")
-			(pinfunction "CH2+")
-			(pintype "input")
-			(uuid "199dd427-a892-45e5-8239-7ce1b1def652")
-		)
-		(pad "4" smd roundrect
-			(at -2.475 0)
-			(size 1.95 0.6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net 80 "unconnected-(U12-CH2--Pad4)")
-			(pinfunction "CH2-")
-			(pintype "input")
-			(uuid "b19dbcee-3e01-4eb6-8f80-07be04948bf4")
-		)
-		(pad "5" smd roundrect
-			(at -2.475 1.27)
-			(size 1.95 0.6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net 74 "unconnected-(U12-V_{SS}-Pad5)")
-			(pinfunction "V_{SS}")
-			(pintype "power_in")
-			(uuid "35f5aba8-c62d-4b57-a777-8099877acaee")
-		)
-		(pad "6" smd roundrect
-			(at -2.475 2.54)
-			(size 1.95 0.6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net 77 "unconnected-(U12-V_{DD}-Pad6)")
-			(pinfunction "V_{DD}")
-			(pintype "power_in")
-			(uuid "683a2a23-1e54-450e-abb8-df1acc10b98d")
-		)
-		(pad "7" smd roundrect
-			(at -2.475 3.81)
-			(size 1.95 0.6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net 79 "unconnected-(U12-SDA-Pad7)")
-			(pinfunction "SDA")
-			(pintype "bidirectional")
-			(uuid "6faefbdc-976e-407e-9675-cb25a0cd0d0c")
-		)
-		(pad "8" smd roundrect
-			(at 2.475 3.81)
-			(size 1.95 0.6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net 73 "unconnected-(U12-SCL-Pad8)")
-			(pinfunction "SCL")
-			(pintype "input")
-			(uuid "208e9012-3a00-4ea7-8678-8080f82cba7c")
-		)
-		(pad "9" smd roundrect
-			(at 2.475 2.54)
-			(size 1.95 0.6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net 82 "unconnected-(U12-Adr0-Pad9)")
-			(pinfunction "Adr0")
-			(pintype "input")
-			(uuid "bb4833ad-77ce-4b1c-9101-788dd0cafaa3")
-		)
-		(pad "10" smd roundrect
-			(at 2.475 1.27)
-			(size 1.95 0.6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net 70 "unconnected-(U12-Adr1-Pad10)")
-			(pinfunction "Adr1")
-			(pintype "input")
-			(uuid "019ebad8-9fa2-4dcc-a8c3-66dbfa605774")
-		)
-		(pad "11" smd roundrect
-			(at 2.475 0)
-			(size 1.95 0.6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net 76 "unconnected-(U12-CH3+-Pad11)")
-			(pinfunction "CH3+")
-			(pintype "input")
-			(uuid "4ea1e394-e6a1-4480-a4ce-e714f9ecd1c2")
-		)
-		(pad "12" smd roundrect
-			(at 2.475 -1.27)
-			(size 1.95 0.6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net 72 "unconnected-(U12-CH3--Pad12)")
-			(pinfunction "CH3-")
-			(pintype "input")
-			(uuid "1f1bfa75-8e06-4237-ad4e-92d4001c4748")
-		)
-		(pad "13" smd roundrect
-			(at 2.475 -2.54)
-			(size 1.95 0.6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net 81 "unconnected-(U12-CH4+-Pad13)")
-			(pinfunction "CH4+")
-			(pintype "input")
-			(uuid "ba8c0c4e-5ec0-4b7b-80e9-1e9c19d5bde1")
-		)
-		(pad "14" smd roundrect
-			(at 2.475 -3.81)
-			(size 1.95 0.6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net 78 "unconnected-(U12-CH4--Pad14)")
-			(pinfunction "CH4-")
-			(pintype "input")
-			(uuid "6a205d26-8cf4-4fff-a20c-811d3a7886b0")
-		)
-		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-14_3.9x8.7mm_P1.27mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
