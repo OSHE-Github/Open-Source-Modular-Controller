@@ -34358,7 +34358,7 @@
 		(layer "Edge.Cuts")
 		(uuid "ec9e0262-773e-4d25-b069-6b0034e28552")
 	)
-	(gr_text "Module Reciever V1\n02/26"
+	(gr_text "Reciever Translate V1\n02/26"
 		(at 190.51 100.71 0)
 		(layer "F.SilkS")
 		(uuid "1e4c44df-0420-4116-a56c-01b590097ea1")

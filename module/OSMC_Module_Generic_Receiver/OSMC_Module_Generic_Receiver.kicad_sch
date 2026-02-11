@@ -11,6 +11,254 @@
 		(company "OSHE")
 	)
 	(lib_symbols
+		(symbol "Jumper:SolderJumper_3_Open"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at -2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_3_Open"
+				(at 0 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Solder Jumper, 3-pole, open"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Solder Jumper SPDT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Open*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SolderJumper_3_Open_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.032 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.016) (xy -1.016 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.016 -1.016)
+					(mid -2.0276 0)
+					(end -1.016 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.016 -1.016)
+					(mid -2.0276 0)
+					(end -1.016 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -0.508 1.016)
+					(end 0.508 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.016 1.016)
+					(mid 2.0276 0)
+					(end 1.016 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.016 1.016)
+					(mid 2.0276 0)
+					(end 1.016 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.016) (xy 1.016 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.032 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SolderJumper_3_Open_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Library:Input_Module"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -616,8 +864,8 @@
 		)
 	)
 	(rectangle
-		(start 153.67 74.295)
-		(end 198.755 128.905)
+		(start 132.08 74.295)
+		(end 198.755 138.43)
 		(stroke
 			(width 0.635)
 			(type solid)
@@ -627,9 +875,9 @@
 		)
 		(uuid c2fa5b01-3486-4124-b9df-1f143c9b10c6)
 	)
-	(text "OSMC Bumper Module"
+	(text "OSMC General Reciver Module"
 		(exclude_from_sim no)
-		(at 52.578 19.05 0)
+		(at 58.42 18.796 0)
 		(effects
 			(font
 				(size 3.81 3.81)
@@ -648,6 +896,54 @@
 			)
 		)
 		(uuid "fb20089a-cbcf-47e1-b1de-c134a1ae54f8")
+	)
+	(junction
+		(at 151.13 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "292ba75e-e7c2-4bbb-9159-2c18106f70ce")
+	)
+	(junction
+		(at 140.97 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5be994e1-39d3-4ab2-9b5e-68e0b3edcc3c")
+	)
+	(junction
+		(at 151.13 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69bc2191-b761-49c5-9e6c-66f7c92d3c2f")
+	)
+	(junction
+		(at 140.97 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6cac5f00-f5b2-4f7b-bc90-b830515bdcf9")
+	)
+	(no_connect
+		(at 166.37 106.68)
+		(uuid "e23f7084-5cb3-46e7-af6c-adc3402c4bd5")
+	)
+	(wire
+		(pts
+			(xy 140.97 104.14) (xy 140.97 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "062bca78-f6c5-4803-ac18-aed73bdab7a0")
+	)
+	(wire
+		(pts
+			(xy 140.97 111.76) (xy 140.97 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "063b55a6-e28f-4d29-b33e-502f4a9bcd95")
 	)
 	(wire
 		(pts
@@ -701,6 +997,46 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 96.52) (xy 151.13 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4819a80a-e549-4123-bf3a-52b7bc43ef3b")
+	)
+	(wire
+		(pts
+			(xy 158.75 107.95) (xy 158.75 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e5bcceb-e82e-413c-8ee3-8b331be94638")
+	)
+	(wire
+		(pts
+			(xy 158.75 102.87) (xy 166.37 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ec3464f-20c2-46ce-b4d9-f8ef53424001")
+	)
+	(wire
+		(pts
+			(xy 158.75 107.95) (xy 146.05 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "760e4773-496d-4226-8aa2-50180c14c812")
+	)
+	(wire
+		(pts
 			(xy 184.15 100.33) (xy 189.23 100.33)
 		)
 		(stroke
@@ -708,6 +1044,16 @@
 			(type default)
 		)
 		(uuid "8963473e-8c6f-4a8b-8db4-ade53650b697")
+	)
+	(wire
+		(pts
+			(xy 166.37 100.33) (xy 146.05 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a39db81-817a-461e-973e-a70ecdee0290")
 	)
 	(wire
 		(pts
@@ -719,6 +1065,56 @@
 		)
 		(uuid "a092bab4-67ea-4e44-aebe-882d8e12704d")
 	)
+	(wire
+		(pts
+			(xy 166.37 92.71) (xy 166.37 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae966639-2e8b-4458-a2a8-701e1d7e9391")
+	)
+	(wire
+		(pts
+			(xy 151.13 111.76) (xy 151.13 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b360c1e9-d011-414f-b548-7a825cf6f566")
+	)
+	(wire
+		(pts
+			(xy 140.97 96.52) (xy 140.97 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbf8b38f-4e54-42b9-9804-456c04d260c0")
+	)
+	(wire
+		(pts
+			(xy 151.13 104.14) (xy 151.13 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4ab75d7-1a37-47b9-ae08-a2eed064ba3e")
+	)
+	(wire
+		(pts
+			(xy 166.37 92.71) (xy 146.05 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff8191a5-2708-43ae-890e-9407f3b62617")
+	)
 	(label "3v3"
 		(at 173.99 115.57 270)
 		(effects
@@ -729,7 +1125,7 @@
 		)
 		(uuid "09ae9746-263b-4a87-93b2-43be044f0ac1")
 	)
-	(label "3v3"
+	(label "Det"
 		(at 189.23 100.33 0)
 		(effects
 			(font
@@ -748,6 +1144,16 @@
 			(justify left bottom)
 		)
 		(uuid "5ddb8d68-f068-4317-b949-775b219d16ab")
+	)
+	(label "3v3"
+		(at 151.13 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7bc07ada-0a55-4997-a75a-000010c11e93")
 	)
 	(label "SDA"
 		(at 176.53 115.57 270)
@@ -904,6 +1310,148 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:SolderJumper_3_Open")
+		(at 146.05 104.14 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "532fa8af-f09f-4c2a-a2ee-a3940f561d14")
+		(property "Reference" "JP10"
+			(at 148.59 101.346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_3_Open"
+			(at 146.05 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm"
+			(at 146.05 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 3-pole, open"
+			(at 146.05 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d7c85acf-2b5a-4871-8137-42401a71567b")
+		)
+		(pin "2"
+			(uuid "87fa8488-263e-423e-b6bf-f58914f28084")
+		)
+		(pin "3"
+			(uuid "10a15f6d-33d6-4bcc-a6c0-984e7b128a34")
+		)
+		(instances
+			(project "OSMC_Module_Generic_Receiver"
+				(path "/5710c097-548c-4b87-af5a-5a66621d409c"
+					(reference "JP10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_3_Open")
+		(at 146.05 96.52 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "71ab4b8e-aee3-45af-a44d-ae1acda89401")
+		(property "Reference" "JP9"
+			(at 149.098 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_3_Open"
+			(at 146.05 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm"
+			(at 146.05 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 3-pole, open"
+			(at 146.05 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a5b5391f-6fb1-4dc6-a312-45de4b615e1c")
+		)
+		(pin "2"
+			(uuid "b7676f56-167b-46f7-8602-413ed49f9181")
+		)
+		(pin "3"
+			(uuid "200911e9-8098-4349-80c1-33a80fbd3c51")
+		)
+		(instances
+			(project "OSMC_Module_Generic_Receiver"
+				(path "/5710c097-548c-4b87-af5a-5a66621d409c"
+					(reference "JP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 171.45 119.38 0)
 		(unit 1)
@@ -964,6 +1512,143 @@
 			(project "OSMC_Module_Buttons"
 				(path "/5710c097-548c-4b87-af5a-5a66621d409c"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_3_Open")
+		(at 146.05 111.76 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "7fd988a8-2972-4620-9900-1344411cc48f")
+		(property "Reference" "JP11"
+			(at 148.59 108.712 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_3_Open"
+			(at 146.05 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm"
+			(at 146.05 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 3-pole, open"
+			(at 146.05 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "18a4337a-a617-494d-9b4b-c8a6c1fe12d7")
+		)
+		(pin "2"
+			(uuid "448ead79-f3b0-41e4-8fa9-7c59e227d546")
+		)
+		(pin "3"
+			(uuid "db6b8922-c4d8-4f83-987a-b6abc2a1582b")
+		)
+		(instances
+			(project "OSMC_Module_Generic_Receiver"
+				(path "/5710c097-548c-4b87-af5a-5a66621d409c"
+					(reference "JP11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 140.97 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f0f479c5-1616-482f-96d0-5ca12d7aa9b7")
+		(property "Reference" "#PWR01"
+			(at 140.97 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 140.97 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 140.97 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c1344c08-27ea-42b8-a5d6-fe40fee1b6b2")
+		)
+		(instances
+			(project "OSMC_Module_Generic_Receiver"
+				(path "/5710c097-548c-4b87-af5a-5a66621d409c"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)

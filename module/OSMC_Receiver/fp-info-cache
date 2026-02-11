@@ -1,4 +1,4 @@
-46659767403935484
+46661536442420558
 12402012E212A
 USB_C_Receptacle_HRO_TYPE-C-31-M-12
 USB Type-C receptacle for USB 2.0 and PD, http://www.krhro.com/uploads/soft/180320/1-1P320120243.pdf
@@ -73534,6 +73534,13 @@ net tie
 0
 4
 4
+Nucleo-F303K8
+MODULE_NUCLEO-F303K8
+
+
+0
+30
+30
 OSMC_Module
 Module standard large
 

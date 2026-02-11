@@ -8278,7 +8278,7 @@
 			)
 		)
 		(instances
-			(project "reciver board"
+			(project "OSMC_Receiver"
 				(path "/c7166619-b781-4a53-a071-e3ce369183d9/a650447b-d3aa-491e-8687-dac7302795aa"
 					(page "3")
 				)
