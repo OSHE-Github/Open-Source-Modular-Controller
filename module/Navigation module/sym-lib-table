@@ -1,5 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "OSMC_Module")(type "KiCad")(uri "C:/Users/stmve/Documents/KiCad/Library/OSMC_Module/OSMC_Module.kicad_sym")(options "")(descr ""))
-  (lib (name "OSMC_parts")(type "KiCad")(uri "${KIPRJMOD}/OSMC_parts.kicad_sym")(options "")(descr ""))
-)
