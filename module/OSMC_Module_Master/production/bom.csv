@@ -1,6 +1,0 @@
-﻿Designator,Footprint,Quantity,Value,LCSC Part #
-"D1, D2, D3, D4",0603,4,LED,
-"SW1, SW2, SW3",SW_PUSH_6mm,3,SW_Push,
-U1,Module standard pin large,1,OSMC Module Board w/pins,
-U2,SOT-23-5_MC_MCH,1,24LC02BT-I/OT,
-U3,DW16,1,PCF8574DWR,
