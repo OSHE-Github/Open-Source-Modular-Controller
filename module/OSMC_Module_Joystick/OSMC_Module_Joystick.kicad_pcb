@@ -885,6 +885,17 @@
 			(uuid "bb71889e-f145-4813-aa08-16064688083e")
 		)
 		(embedded_fonts no)
+		(model "C:/Users/stmve/Documents/KiCad/Library/COM_09032/COM-09032.step"
+			(offset
+				(xyz 0 0.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Library:Module standard pin large"
 		(layer "F.Cu")
