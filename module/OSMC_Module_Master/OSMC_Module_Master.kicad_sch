@@ -2877,7 +2877,7 @@
 	)
 	(symbol
 		(lib_id "Library:LED")
-		(at 97.79 165.1 270)
+		(at 97.79 165.1 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2885,7 +2885,7 @@
 		(dnp no)
 		(uuid "00898619-9fd8-4137-b4c8-094abcac78f1")
 		(property "Reference" "D3"
-			(at 100.076 166.6875 0)
+			(at 95.504 163.5125 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2893,7 +2893,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 100.076 163.576 0)
+			(at 95.504 166.624 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3795,7 +3795,7 @@
 	)
 	(symbol
 		(lib_id "Library:LED")
-		(at 105.41 165.1 270)
+		(at 105.41 165.1 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3803,7 +3803,7 @@
 		(dnp no)
 		(uuid "5b1e7d7f-76c2-4384-b3ca-fd659e2a3248")
 		(property "Reference" "D2"
-			(at 107.696 166.6875 0)
+			(at 103.124 163.5125 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3811,7 +3811,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 107.696 163.576 0)
+			(at 103.124 166.624 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4006,7 +4006,7 @@
 	)
 	(symbol
 		(lib_id "Library:LED")
-		(at 91.44 165.1 270)
+		(at 91.44 165.1 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4014,7 +4014,7 @@
 		(dnp no)
 		(uuid "95151827-ce53-44e9-a07a-e7b7cbc069d7")
 		(property "Reference" "D4"
-			(at 93.726 166.6875 0)
+			(at 89.154 163.5125 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4022,7 +4022,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 93.726 163.576 0)
+			(at 89.154 166.624 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4147,7 +4147,7 @@
 	)
 	(symbol
 		(lib_id "Library:LED")
-		(at 111.76 165.1 270)
+		(at 111.76 165.1 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4155,7 +4155,7 @@
 		(dnp no)
 		(uuid "bdeb5633-e283-408a-b546-c2ec12db81c5")
 		(property "Reference" "D1"
-			(at 114.046 166.6875 0)
+			(at 109.474 163.5125 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4163,7 +4163,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 114.046 163.576 0)
+			(at 109.474 166.624 0)
 			(effects
 				(font
 					(size 1.27 1.27)
