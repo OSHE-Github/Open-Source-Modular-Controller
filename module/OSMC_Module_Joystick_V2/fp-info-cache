@@ -1,4 +1,11 @@
-46668618370367097
+46635020058501424
+1935187
+PHOENIX_1935187
+
+
+0
+4
+4
 12402012E212A
 USB_C_Receptacle_HRO_TYPE-C-31-M-12
 USB Type-C receptacle for USB 2.0 and PD, http://www.krhro.com/uploads/soft/180320/1-1P320120243.pdf
@@ -61396,6 +61403,13 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 0
 10
 10
+EAST1616RGBB2
+EAST1616RGBB2_EVE
+
+EAST1616RGBB2 
+0
+4
+4
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
@@ -74829,27 +74843,6 @@ DIL DIP PDIP 2.54mm 7.62mm 300mil
 0
 4
 4
-PCF8574DWR
-DW16
-
-PCF8574DWR 
-0
-16
-16
-PCF8574DWR
-DW16-L
-
-PCF8574DWR 
-0
-16
-16
-PCF8574DWR
-DW16-M
-
-PCF8574DWR 
-0
-16
-16
 PCM_Capacitor_SMD_AKL
 CP_Elec_5x3
 SMD capacitor, aluminum electrolytic, Nichicon, 5.0x3.0mm, Alternate KiCad Library
@@ -176630,132 +176623,6 @@ rotary encoder illuminated switch vertical
 0
 9
 8
-Seed Studio Xiao
-XIAO-Add-On
-
-
-0
-56
-14
-Seed Studio Xiao
-XIAO-ESP32-C3-DIP
-
-
-0
-28
-14
-Seed Studio Xiao
-XIAO-ESP32-C3-SMD
-
-
-0
-22
-22
-Seed Studio Xiao
-XIAO-ESP32-C6-DIP
-
-
-0
-28
-14
-Seed Studio Xiao
-XIAO-ESP32-C6-SMD
-
-
-0
-24
-24
-Seed Studio Xiao
-XIAO-ESP32-S3-DIP
-
-
-0
-28
-14
-Seed Studio Xiao
-XIAO-ESP32-S3-SMD
-
-
-0
-24
-24
-Seed Studio Xiao
-XIAO-ESP32-S3-SMD_PAD
-
-
-0
-25
-25
-Seed Studio Xiao
-XIAO-R4-DIP
-
-
-0
-58
-24
-Seed Studio Xiao
-XIAO-R4-SMD
-
-
-0
-30
-30
-Seed Studio Xiao
-XIAO-RP2040-DIP
-
-
-0
-28
-14
-Seed Studio Xiao
-XIAO-RP2040-SMD
-
-
-0
-20
-20
-Seed Studio Xiao
-XIAO-RP2350-DIP
-
-
-0
-58
-24
-Seed Studio Xiao
-XIAO-RP2350-SMD
-
-
-0
-30
-30
-Seed Studio Xiao
-XIAO-SAMD21-DIP
-
-
-0
-28
-14
-Seed Studio Xiao
-XIAO-SAMD21-SMD
-
-
-0
-20
-20
-Seed Studio Xiao
-XIAO-nRF52840-DIP
-
-
-0
-28
-14
-Seed Studio Xiao
-XIAO-nRF52840-SMD
-
-
-0
-22
-22
 Seeed_Studio_XIAO_Series
 XIAO-Add-On
 
