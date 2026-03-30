@@ -50,7 +50,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_ffffdff5_ffffffff",
+    "visible_layers": "ffffffff_ffffffff_ffffdff7_dfffffff",
     "zone_display_mode": 0
   },
   "git": {
@@ -59,7 +59,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "OSMC_Receiver_Translators.kicad_prl",
+    "filename": "OSMC_Receiver_V1.2.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {

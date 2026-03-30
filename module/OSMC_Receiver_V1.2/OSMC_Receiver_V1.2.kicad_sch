@@ -2600,6 +2600,16 @@
 		)
 		(uuid "06d0dfa6-d090-43db-8ce2-70a2f31dbdae")
 	)
+	(label "SCL1"
+		(at 72.39 146.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0d6b8b17-7d4c-4a56-acbf-b0f775de93b7")
+	)
 	(label "Vdd"
 		(at 39.37 170.18 0)
 		(effects
@@ -2730,6 +2740,16 @@
 		)
 		(uuid "6864aba4-e021-41fa-9354-ebdd06171025")
 	)
+	(label "SDA1"
+		(at 72.39 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "733e26f7-312d-4b17-914c-80bbf88fcf7d")
+	)
 	(label "SCL1"
 		(at 54.61 182.88 180)
 		(effects
@@ -2859,26 +2879,6 @@
 			(justify right bottom)
 		)
 		(uuid "e05e7fce-4cb8-4daa-b1a9-42d1752b747b")
-	)
-	(label "SCL1"
-		(at 72.39 146.05 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e4a1a69b-1599-4b6a-8483-bc88f5a6f1fc")
-	)
-	(label "SDA1"
-		(at 72.39 148.59 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e4acc8e0-61f3-4f2b-8387-0b0d3dbb5edd")
 	)
 	(label "INT"
 		(at 72.39 151.13 0)
@@ -4702,7 +4702,7 @@
 			)
 		)
 		(instances
-			(project "OSMC_Receiver_Translators"
+			(project "OSMC_Receiver_V1.2"
 				(path "/c7166619-b781-4a53-a071-e3ce369183d9"
 					(page "2")
 				)
