@@ -3334,17 +3334,6 @@
 		)
 		(uuid "ff22b08f-e621-4b73-997e-2719d872181f")
 	)
-	(hierarchical_label "SCL4"
-		(shape input)
-		(at 118.11 140.97 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "09d4df1b-ed87-4ee2-b8dd-981f5b513548")
-	)
 	(hierarchical_label "Det6"
 		(shape input)
 		(at 262.89 129.54 0)
@@ -3366,6 +3355,17 @@
 			(justify right)
 		)
 		(uuid "220edcb7-9529-448a-974e-f210eff310ef")
+	)
+	(hierarchical_label "SDA4"
+		(shape input)
+		(at 118.11 140.97 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2414ff28-95ee-4cbd-9ca8-8c9ae6a5cf6c")
 	)
 	(hierarchical_label "SCL5"
 		(shape input)
@@ -3543,6 +3543,17 @@
 		)
 		(uuid "da7a3359-8e5b-42ca-8c38-ef2a378103ba")
 	)
+	(hierarchical_label "SCL4"
+		(shape input)
+		(at 120.65 140.97 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "df5f241f-6b89-497e-b5b0-c8761130fcf2")
+	)
 	(hierarchical_label "SDA0"
 		(shape input)
 		(at 53.34 64.77 270)
@@ -3575,17 +3586,6 @@
 			(justify right)
 		)
 		(uuid "f0b8f9eb-950c-4cb4-b556-f8f00e616d37")
-	)
-	(hierarchical_label "SDA4"
-		(shape input)
-		(at 120.65 140.97 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f64b972c-4353-489a-b68b-d92ae9556681")
 	)
 	(hierarchical_label "SDA3"
 		(shape input)

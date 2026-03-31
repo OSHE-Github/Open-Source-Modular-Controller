@@ -748,6 +748,10 @@
     [
       "fc516c0f-4bea-49ad-a8a0-a612f9f66431",
       "I2C config"
+    ],
+    [
+      "492473b1-d139-4031-9ba2-9a6831d1f1bb",
+      "jst connections"
     ]
   ],
   "text_variables": {}
