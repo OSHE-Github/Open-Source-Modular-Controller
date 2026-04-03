@@ -31,9 +31,9 @@ uint8_t moduleType[7];
 uint8_t moduleEEPROMaddr[7] = { 0x50, 0x51, 0x52, 0x53, 0x54, 0x55, 0x56 };
 uint8_t moduleADCaddr[7] = { 0x48, 0x49, 0x4A, 0x4B, 0x00, 0x00, 0x00 };
 bool moduleUsesADC[7] = { false };
-bool adsInit[4] = { false };
-
-
+bool adsInit[7] = { false };
+uint16_t adcvalue[32];
+int adsSize = sizeof(adsInit) / sizeof(bool);
 
 static uint8_t modulesInUse = 0;
 // uint32_t i2cScanCount = 0;
@@ -50,6 +50,7 @@ Adafruit_ADS1115 ads0;
 Adafruit_ADS1115 ads1;
 Adafruit_ADS1115 ads2;
 Adafruit_ADS1115 ads3;
+Adafruit_ADS1115 ads4;
 
 // Declare function
 // void ARDUINO_ISR_ATTR moduleSwap();
@@ -95,6 +96,12 @@ void loop() {
   int RyVal = 0;
   int L3Val = 0;
   int R3Val = 0;
+  uint16_t Lx = 0;
+  uint16_t Ly = 0;
+  uint16_t Rx = 0;
+  uint16_t Ry = 0;
+  uint16_t L3 = 0;
+  uint16_t R3 = 0;
   int RTrigger = 0;
   int LTrigger = 0;
   uint8_t hat = 0;
@@ -139,24 +146,8 @@ void loop() {
       // Find the module index
       int index = addr - 0x48;
 
-      // Create variables for reading values
-      uint16_t Lx = 0;
-      uint16_t Ly = 0;
-      uint16_t Rx = 0;
-      uint16_t Ry = 0;
-      uint16_t L3 = 0;
-      uint16_t R3 = 0;
-
-      // Consider idiot using two joysticks on the same side....?
-
       switch (index) {
-        case 4:
-          // If the index is even, then joystick is on left side
-          // read adc values into Lx and Ly for proper conversion
-          rightJoystickPresent = true;
-          Ry = ads0.readADC_SingleEnded(0);
-          Rx = ads0.readADC_SingleEnded(1);
-          R3 = ads0.readADC_SingleEnded(2);
+        case 0:
           break;
         case 1:
           // If the index is 0, then the joystick is on right side
@@ -184,6 +175,14 @@ void loop() {
           Lx = (ads3.readADC_SingleEnded(1));
           L3 = (ads3.readADC_SingleEnded(2));
           break;
+        case 4:
+          // If the index is even, then joystick is on left side
+          // read adc values into Lx and Ly for proper conversion
+          rightJoystickPresent = true;
+          Ry = ads4.readADC_SingleEnded(0);
+          Rx = ads4.readADC_SingleEnded(1);
+          R3 = ads4.readADC_SingleEnded(2);
+          break;
         default:
           continue;
       }
@@ -196,13 +195,13 @@ void loop() {
         if (abs(LxVal) < DEADZONE) {
           LxVal = 0;
         }
-        if(LxVal < -127) LxVal=-127;
+        if (LxVal < -127) LxVal = -127;
         // y-axis for left joystick
         LyVal = map(Ly, 0, 17000, -127, 127);
         if (abs(LyVal) < DEADZONE) {
           LyVal = 0;
         }
-        if(LyVal > 127) LyVal=127;
+        if (LyVal > 127) LyVal = 127;
 
         // Add L3 to the bitmask, maybe not here?
         if ((L3 > 60000) || (L3 < 1000)) buttons |= (1 << 10);
@@ -214,13 +213,13 @@ void loop() {
         if (abs(RxVal) < DEADZONE) {
           RxVal = 0;
         }
-        if(RxVal >127) RxVal=127;
+        if (RxVal > 127) RxVal = 127;
         // y-axis for right joystick
         RyVal = map(Ry, 0, 17000, 127, -127);
         if (abs(RyVal) < DEADZONE) {
           RyVal = 0;
         }
-        if(RyVal < -127) RyVal=-127;
+        if (RyVal < -127) RyVal = -127;
 
         // Add R3 to the bitmask, maybe not here?
         if ((R3 > 60000) || (R3 < 1000)) buttons |= (1 << 11);
@@ -229,7 +228,6 @@ void loop() {
 
       continue;
     }
-
 
     // If module is buttons
     if (moduleType[i] == MODULE_BUTTON) {
@@ -323,10 +321,10 @@ void loop() {
 
             // Use if statements to assign data to button bitmask for multi inputs
             // If the data byte has 0 at bit 2, A is pressed
-            if (!(data & (1 << 2))) buttons |= (1 << 0);  // B
-            if (!(data & (1 << 1))) buttons |= (1 << 1);
-            if (!(data & (1 << 3))) buttons |= (1 << 3);
-            if (!(data & (1 << 0))) buttons |= (1 << 2);  // Y
+            if (!(data & (1 << 1))) buttons |= (1 << 0);  // A
+            if (!(data & (1 << 2))) buttons |= (1 << 1);  // B
+            if (!(data & (1 << 3))) buttons |= (1 << 3);  // Y
+            if (!(data & (1 << 0))) buttons |= (1 << 2);  // X
 
             break;
           }
@@ -340,7 +338,7 @@ void loop() {
               // Bit 5 in bitmask is the Left bumper
               // Left trigger has its own variable value
               if (!(data & (1 << 1))) buttons |= (1 << 4);
-              if (!(data & (1 << 0))){
+              if (!(data & (1 << 0))) {
                 LTrigger = 127;
                 buttons |= (1 << 6);
               }
@@ -348,7 +346,8 @@ void loop() {
             } else {
               // If not on left, its on right, Pins swap because upside down
               if (!(data & (1 << 0))) buttons |= (1 << 5);
-              if (!(data & (1 << 1))){ RTrigger = 127;
+              if (!(data & (1 << 1))) {
+                RTrigger = 127;
                 buttons |= (1 << 7);
               }
             }
@@ -361,11 +360,18 @@ void loop() {
     if (moduleType[i] == MODULE_MASTER) {
       Wire.requestFrom(moduleIOEaddr[i], 1);
       uint8_t data = Wire.read();
-
-      // Following code assumings start, select, home button are bits 0 3 7
-      if (!(data & (1 << 0))) buttons |= (1 << 8);
-      if (!(data & (1 << 1))) buttons |= (1 << 9);
-      if (!(data & (1 << 2))) buttons |= (1 << 16);
+      uint8_t version = 1;
+      if (version == 1) {
+        // Following code assumings start, select, home button are bits 0 3 7
+        if (!(data & (1 << 0))) buttons |= (1 << 16);
+        if (!(data & (1 << 1))) buttons |= (1 << 8);
+        if (!(data & (1 << 2))) buttons |= (1 << 9);
+      } else if (version == 2) {
+        if (!(data & (1 << 1))) buttons |= (1 << 9);   // A
+        if (!(data & (1 << 2))) buttons |= (1 << 17);  // B
+        if (!(data & (1 << 3))) buttons |= (1 << 8);   // Y
+        if (!(data & (1 << 0))) buttons |= (1 << 16);  // X
+      }
     }
   }
 
@@ -387,8 +393,9 @@ void loop() {
 
     static uint32_t testcount = 0;
     Serial.println("Joystick position");
-    Serial.printf("Left y: %d x: %d trigger: %d \nRight y: %d x: %d trigger: %d \n", LyVal, LxVal, LTrigger, RyVal, RxVal,RTrigger);
-    Serial.printf("Button State A B X Y R1 L1 R2 L2 R3 L3 \n%d \n", buttons);
+    Serial.printf("Left y: %d x: %d trigger: %d \nRight y: %d x: %d trigger: %d \n", LyVal, LxVal, LTrigger, RyVal, RxVal, RTrigger);
+    Serial.printf("Button State A B X Y R1 L1 R2 L2 R3 L3 \n");
+    Serial.println(buttons, BIN);
     Serial.printf("Hat position: %d \n", hat);
     Serial.printf("Count: %d \n", testcount++);
 
@@ -413,12 +420,14 @@ void loop() {
     } else {
       Serial.printf("Scan done, %d device(s) found\n", found);
     }
-    if(found>5){
+    if (found > 5) {
       static uint32_t testcount = 0;
       Serial.println("Joystick position");
-      Serial.printf("Left y: %d x: %d \nRight y: %d x: %d \n", LyVal, LxVal, RyVal, RxVal);
-      Serial.printf("Button State A B X Y R1 L1 R2 L2 R3 L3 \n%d \n", buttons);
+      Serial.printf("Left y: %d x: %d trigger: %d \nRight y: %d x: %d trigger: %d \n", LyVal, LxVal, LTrigger, RyVal, RxVal, RTrigger);
+      Serial.printf("Button State A B X Y R1 L1 R2 L2 R3 L3 \n");
+      Serial.println(buttons, BIN);
       Serial.printf("Hat position: %d \n", hat);
+      Serial.printf("Count: %d \n", testcount++);
     }
     delay(1000);
   }
@@ -478,9 +487,9 @@ void i2cScan() {
       }
     }
 
-for (int l = 0; l < 7; l++) {
-  Serial.printf("Slot %d: 0x%X\n", l, deviceLocation[l]);
-}
+    for (int l = 0; l < 7; l++) {
+      Serial.printf("Slot %d: 0x%X\n", l, deviceLocation[l]);
+    }
   }
 
 }
@@ -689,10 +698,20 @@ void fastScanModules() {
 
       if (!adsInit[slot]) {
         switch (slot) {
-          case 4: ads0.begin(addr); break;
-          case 1: ads1.begin(addr); break;
-          case 2: ads2.begin(addr); break;
-          case 3: ads3.begin(addr); break;
+          case 0:
+            break;
+          case 1:
+            ads1.begin(addr);
+            break;
+          case 2:
+            ads2.begin(addr);
+            break;
+          case 3:
+            ads3.begin(addr);
+            break;
+          case 4:
+            ads4.begin(addr);
+            break;
         }
         adsInit[slot] = true;
       }
@@ -714,7 +733,7 @@ void fastScanModules() {
     if (moduleIn[2]) ledByte |= (1 << 4);
     if (moduleIn[4]) ledByte |= (1 << 5);
     if (moduleIn[3]) ledByte |= (1 << 6);
-    if (moduleIn[1]) ledByte |= (1 << 7);
+    if (moduleIn[0]) ledByte |= (1 << 7);
 
     Wire.beginTransmission(moduleIOEaddr[6]);
     Wire.write(ledByte);
