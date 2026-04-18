@@ -1,116 +1,95 @@
 # Bill of Materials (BOM)
 
-This Bill of Materials summarizes all components required to assemble the Open Source Modular Controller.
+This Bill of Materials summarizes all components required to assemble the Open Source Modular Controller V2.
+
+--
+
+## Receiver Board
+
+| Part Name | Desc | Qty. | Total | Link |
+|-----------|------|------|-------|------|
+| LTC4317 | Address Translator | 4 | $20.72 | [Digikey.com](https://www.digikey.com/en/products/detail/analog-devices-inc/LTC4317CDHC-PBF/5297623) |
+| 24LC02BT-I/OT | 2 kbit EEPROM | 1 | $0.31 | [Digikey.com](https://www.digikey.com/en/products/detail/microchip-technology/24LC02BT-I-OT/443519) |
+| PCF8574DWR | 8 bit io expander | 1 | $1.99 | [Digikey.com](https://www.digikey.com/en/products/detail/texas-instruments/PCF8574DWR/484579) |
+| 603_1208 metric | 10 µF capacitor | 3 | $0.03 | [Digikey.com](https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21A106KOQNNNE/3886754) |
+| 603_1208 metric | 0.1 µF capacitor | 4 | $0.24 | [Digikey.com](https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R7BB104/302822) |
+| 603_1208 metric | 10 kΩ resistors | 27 | $0.24 | [Digikey.com](https://www.digikey.com/en/products/detail/yageo/RC0603FR-0710KL/726880) |
+| XIAO ESP32-S3 Plus | Seeed Studio XIAO ESP32-S3 Plus | 1 | $7.90 | [Seeedstudio.com](https://www.seeedstudio.com/Seeed-Studio-XIAO-ESP32S3-Plus-p-6361.html) |
+| PCB | Main Receiver Board | 1 | $29.00 | — |
+| 603_1208 metric | 0 kΩ resistors | 1 | $0.10 | [Digikey.com](https://www.digikey.com/en/products/detail/yageo/RC0603JR-070RL/726675) |
+| 603_1208 metric | 102 kΩ resistors | 1 | $0.10 | [Digikey.com](https://www.digikey.com/en/products/detail/yageo/RC0603FR-07102KL/726891) |
+| 603_1208 metric | 182 kΩ resistors | 1 | $0.10 | [Digikey.com](https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0603FT182K/1760990) |
+| 603_1208 metric | 280 kΩ resistors | 1 | $0.10 | [Digikey.com](https://www.digikey.com/en/products/detail/yageo/RC0603FR-07280KL/727112) |
+| 603_1208 metric | 392 kΩ resistors | 1 | $0.10 | [Digikey.com](https://www.digikey.com/en/products/detail/yageo/RC0603FR-07392KL/727201) |
+| 603_1208 metric | 523 kΩ resistors | 1 | $0.10 | [Digikey.com](https://www.digikey.com/en/products/detail/yageo/RC0603FR-07523KL/727292) |
+| 603_1208 metric | 681 kΩ resistors | 1 | $0.10 | [Digikey.com](https://www.digikey.com/en/products/detail/yageo/RT0603FRE07681KL/5929212) |
+| 603_1208 metric | 887 kΩ resistors | 1 | $0.10 | [Digikey.com](https://www.digikey.com/en/products/detail/yageo/RC0603FR-07887KL/727417) |
+| 603_1208 metric | 976 kΩ resistors | 1 | $0.10 | [Digikey.com](https://www.digikey.com/en/products/detail/yageo/RC0603FR-07976KL/727442) |
+| 603_1208 metric | 1 MΩ resistors | 5 | $0.40 | [Digikey.com](https://www.digikey.com/en/products/detail/yageo/RC0603FR-071ML/726844) |
+| 1x8 smd pogo pins | Pogo pin connection | 8 | $42.48 | [Digikey.com](https://www.digikey.com/en/products/detail/digikey-va/811-22-008-30-000101/682276) |
+| JST SH 4-pin Connector | Qwiic compatible connector | 1 | $3.95 | [Adafruit.com](https://www.adafruit.com/product/4208) |
+
+**Subtotal:** 65 parts — **$108.16**
 
 ---
 
-## MCU Carrier Board
+## Button Board
 
-| Part Name                | Description                      | Qty | Total Cost | Link            |
-| ------------------------ | -------------------------------- | --- | ---------- | --------------- |
-| ESP32-S3-WROOM-1U-N4     | ESP32-S3 module                  | 1   | $5.06      | `[placeholder]` |
-| 1N5819WS                 | Reverse-current protection diode | 1   | $0.10      | `[placeholder]` |
-| AZ1117CH-3.3             | 3.3 V LDO regulator              | 1   | $0.16      | `[placeholder]` |
-| PRTR5V0U2X               | USB ESD protection               | 1   | $0.47      | `[placeholder]` |
-| USB-CB16HTBTR            | USB-C connector                  | 1   | $1.05      | `[placeholder]` |
-| 10 µF capacitors (0603)  | Decoupling capacitors            | 3   | $0.30      | `[placeholder]` |
-| 0.1 µF capacitors (0603) | Decoupling capacitors            | 4   | $0.32      | `[placeholder]` |
-| SML-D12U1WT86            | Red LED                          | 1   | $0.12      | `[placeholder]` |
-| SKQGABE010               | Button                           | 1   | $0.31      | `[placeholder]` |
-| 5.1 kΩ resistors (0603)  | Pull-up resistors                | 2   | $0.32      | `[placeholder]` |
-| 1 kΩ resistor (0603)     | LED resistor                     | 1   | $0.10      | `[placeholder]` |
-| 10 kΩ resistor (0603)    | Reset/logic pull-up              | 1   | $0.10      | `[placeholder]` |
-| DF40C-20DP-0.4V          | Board connector plug             | 2   | $1.38      | `[placeholder]` |
+| Part Name | Desc | Qty. | Total | Link |
+|-----------|------|------|-------|------|
+| 24LC02BT-I/OT | 2 kbit EEPROM | 1 | $0.31 | Digikey.com |
+| PCF8574DWR | 8 bit io expander | 1 | $1.99 | Digikey.com |
+| SKQGABE010 | Button | 4 | $1.24 | Digikey.com |
+| PCB | Button Board | 1 | $7.00 | — |
 
-**Subtotal:** $9.79
+**Subtotal:** 7 parts — **$10.54**
 
 ---
 
-## MCU Interposer
+## Joystick Board
 
-| Part Name                | Description           | Qty | Total Cost | Link            |
-| ------------------------ | --------------------- | --- | ---------- | --------------- |
-| DF40C-20DS-0.4V          | Board receptacle      | 2   | $1.16      | `[placeholder]` |
-| 10 µF capacitors (0603)  | Decoupling capacitors | 2   | $0.20      | `[placeholder]` |
-| 0.1 µF capacitors (0603) | Decoupling capacitors | 2   | $0.16      | `[placeholder]` |
-| SKQGABE010               | Button                | 3   | $0.93      | `[placeholder]` |
-| LTST-C193TBKT            | Blue LED              | 4   | $0.72      | `[placeholder]` |
-| 1 kΩ resistors (0603)    | LED resistors         | 4   | $0.40      | `[placeholder]` |
+| Part Name | Desc | Qty. | Total | Link |
+|-----------|------|------|-------|------|
+| 24LC02BT-I/OT | 2 kbit EEPROM | 1 | $0.31 | Digikey.com |
+| ADS1115IDGST | ADC | 1 | $6.29 | Digikey.com |
+| 603_1208 metric | 10 kΩ resistors | 1 | $0.10 | Digikey.com |
+| 9032 | Joysticks | 1 | $5.25 | Digikey.com |
+| PCB | Joysticks Board | 1 | $7.00 | — |
 
-**Subtotal:** $3.57
-
----
-
-## Dev Board Interposer
-
-| Part Name          | Description             | Qty | Total Cost | Link            |
-| ------------------ | ----------------------- | --- | ---------- | --------------- |
-| ESP32-S3-DevKitC-1 | ESP32-S3 dev board      | 1   | $15.00     | `[placeholder]` |
-| 10 µF capacitors   | Decoupling capacitors   | 2   | $0.20      | `[placeholder]` |
-| 0.1 µF capacitors  | Decoupling capacitors   | 2   | $0.16      | `[placeholder]` |
-| SKQGABE010         | Button                  | 3   | $0.93      | `[placeholder]` |
-| LTST-C193TBKT      | Blue LED                | 4   | $0.72      | `[placeholder]` |
-| 1 kΩ resistors     | LED resistors           | 4   | $0.40      | `[placeholder]` |
-| PPTC221LFBN        | 1×22 female pin headers | 2   | $2.40      | `[placeholder]` |
-
-**Subtotal:** $19.81
+**Subtotal:** 5 parts — **$18.95**
 
 ---
 
-## Input Boards
+## Bumper Board
 
-| Part Name              | Description          | Qty | Total Cost | Link            |
-| ---------------------- | -------------------- | --- | ---------- | --------------- |
-| 1 µF capacitors (0603) | Filtering capacitors | 4   | $0.40      | `[placeholder]` |
-| 9032 Joysticks         | Dual-axis joysticks  | 2   | $10.50     | `[placeholder]` |
-| B3F-1000 Buttons       | Momentary buttons    | 12  | $2.88      | `[placeholder]` |
-| PRPC040SACN            | Header pins (40-pin) | 2   | $1.68      | `[placeholder]` |
+| Part Name | Desc | Qty. | Total | Link |
+|-----------|------|------|-------|------|
+| 24LC02BT-I/OT | 2 kbit EEPROM | 1 | $0.31 | Digikey.com |
+| PCF8574DWR | 8 bit io expander | 1 | $1.99 | Digikey.com |
+| PCB | Bumper Board | 1 | $7.00 | — |
+| Key switches | Switches for bumpers and triggers | 1 | $4.49 | Amazon.com |
 
-**Subtotal:** $15.46
-
----
-
-## Receiver Boards
-
-| Part Name   | Description             | Qty | Total Cost | Link            |
-| ----------- | ----------------------- | --- | ---------- | --------------- |
-| PPPC041LFBN | 1×4 pin header sockets  | 16  | $6.08      | `[placeholder]` |
-| PRPC040SBAN | Right-angle header pins | —   | $0.00      | `[placeholder]` |
-| 26 AWG Wire | Stranded silicone wire  | 1   | $9.99      | `[placeholder]` |
-
-**Subtotal:** $16.07
+**Subtotal:** 4 parts — **$13.79**
 
 ---
 
-## PCB Fabrication
+## Nav / Master Board
 
-| Part Name                  | Description   | Qty Used | Cost  | Link            |
-| -------------------------- | ------------- | -------- | ----- | --------------- |
-| Custom Main Controller PCB | JLCPCB, 5 pcs | 1 used   | $5.00 | `[placeholder]` |
-| MC Carrier PCB             | JLCPCB, 5 pcs | 1 used   | $5.00 | `[placeholder]` |
-| Dev Board Carrier PCB      | JLCPCB, 5 pcs | 1 used   | $5.00 | `[placeholder]` |
-| Button Module PCB          | JLCPCB, 5 pcs | 2 used   | $5.00 | `[placeholder]` |
-| Joystick Module PCB        | JLCPCB, 5 pcs | 2 used   | $5.00 | `[placeholder]` |
-| Receiver Module PCB        | JLCPCB, 5 pcs | 4 used   | $5.00 | `[placeholder]` |
+| Part Name | Desc | Qty. | Total | Link |
+|-----------|------|------|-------|------|
+| 24LC02BT-I/OT | 2 kbit EEPROM | 1 | $0.31 | Digikey.com |
+| PCF8574DWR | 8 bit io expander | 1 | $1.99 | Digikey.com |
+| LTST-C193TBKT-5A | Blue LED | 4 | $0.72 | Digikey.com |
+| B3F-1000 | Button | 4 | $0.96 | Digikey.com |
+| PCB | Nav Board | 1 | $7.00 | — |
+| 319-10-104-00-006000 | Pogo pin strikers | 3 | $8.94 | Digikey.com |
 
-**Subtotal:** $30.00
-
----
-
-## Shell / Enclosure
-
-| Part Name        | Description                | Qty | Total Cost | Link            |
-| ---------------- | -------------------------- | --- | ---------- | --------------- |
-| PLA Filament     | 3D-printed shell material  | 1   | $2.50      | `[placeholder]` |
-| M3 Brass Inserts | Heat-set inserts (150 pcs) | 12  | $5.69      | `[placeholder]` |
-| M3 Screws        | Assorted screw kit         | 12  | $6.99      | `[placeholder]` |
-
-**Subtotal:** $15.18
+**Subtotal:** 14 parts — **$19.92**
 
 ---
 
-## Total Summary
+## Overall Total
 
-* **Total Parts:** 103
-* **Total Cost:** **$109.88** (approx.)
+- **Total Parts:** 95  
+- **Total Cost:** **$171.36**
 

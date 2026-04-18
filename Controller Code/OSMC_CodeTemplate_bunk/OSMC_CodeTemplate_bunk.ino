@@ -375,7 +375,7 @@ void loop() {
     }
   }
 
-  // conditional to see testing data
+  // conditional to see testing data or run program
   if (!test) {
     // -------------------
     // Send state to HID
@@ -647,6 +647,9 @@ void scanModules() {
     }
   }
 }
+*/
+/*
+function to scan and detect modules
 */
 void fastScanModules() {
   // Reset module state every loop
