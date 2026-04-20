@@ -32,14 +32,18 @@ This Bill of Materials summarizes all components required to assemble the Open S
 **Subtotal:** 65 parts — **$108.16**
 
 ---
+### Module Boards
+ Following is the Module boards. These boards are parted out into each with the components cost for 1 of that type. most of the cost cna go down by ordering in larger qualities and the pcb do not need to be ordered multiple times as they come in packs of 5.
+
+---
 
 ## Button Board
 
 | Part Name | Desc | Qty. | Total | Link |
 |-----------|------|------|-------|------|
-| 24LC02BT-I/OT | 2 kbit EEPROM | 1 | $0.31 | Digikey.com |
-| PCF8574DWR | 8 bit io expander | 1 | $1.99 | Digikey.com |
-| SKQGABE010 | Button | 4 | $1.24 | Digikey.com |
+| 24LC02BT-I/OT | 2 kbit EEPROM | 1 | $0.31 | [Digikey.com](https://www.digikey.com/en/products/detail/microchip-technology/24LC02BT-I-OT/443519) |
+| PCF8574DWR | 8 bit io expander | 1 | $1.99 | [Digikey.com](https://www.digikey.com/en/products/detail/texas-instruments/PCF8574DWR/484579) |
+| SKQGABE010 | Button | 4 | $1.24 | [Digikey.com](https://www.digikey.com/en/products/detail/alps-alpine/SKQGABE010/19529161) |
 | PCB | Button Board | 1 | $7.00 | — |
 
 **Subtotal:** 7 parts — **$10.54**
@@ -50,10 +54,10 @@ This Bill of Materials summarizes all components required to assemble the Open S
 
 | Part Name | Desc | Qty. | Total | Link |
 |-----------|------|------|-------|------|
-| 24LC02BT-I/OT | 2 kbit EEPROM | 1 | $0.31 | Digikey.com |
-| ADS1115IDGST | ADC | 1 | $6.29 | Digikey.com |
-| 603_1208 metric | 10 kΩ resistors | 1 | $0.10 | Digikey.com |
-| 9032 | Joysticks | 1 | $5.25 | Digikey.com |
+| 24LC02BT-I/OT | 2 kbit EEPROM | 1 | $0.31 | [Digikey.com](https://www.digikey.com/en/products/detail/microchip-technology/24LC02BT-I-OT/443519) |
+| ADS1115IDGST | ADC | 1 | $6.29 | [Digikey.com](https://www.digikey.com/en/products/detail/texas-instruments/ADS1115IDGST/2123298) |
+| 603_1208 metric | 10 kΩ resistors | 1 | $0.10 | [Digikey.com](https://www.digikey.com/en/products/detail/yageo/RC0603FR-0710KL/726880) |
+| 9032 | Joysticks | 1 | $5.25 | [Digikey.com](https://www.digikey.com/en/products/detail/sparkfun-electronics/09032/6823623) |
 | PCB | Joysticks Board | 1 | $7.00 | — |
 
 **Subtotal:** 5 parts — **$18.95**
@@ -64,10 +68,10 @@ This Bill of Materials summarizes all components required to assemble the Open S
 
 | Part Name | Desc | Qty. | Total | Link |
 |-----------|------|------|-------|------|
-| 24LC02BT-I/OT | 2 kbit EEPROM | 1 | $0.31 | Digikey.com |
-| PCF8574DWR | 8 bit io expander | 1 | $1.99 | Digikey.com |
+| 24LC02BT-I/OT | 2 kbit EEPROM | 1 | $0.31 | [Digikey.com](https://www.digikey.com/en/products/detail/microchip-technology/24LC02BT-I-OT/443519) |
+| PCF8574DWR | 8 bit io expander | 1 | $1.99 | [Digikey.com](https://www.digikey.com/en/products/detail/texas-instruments/PCF8574DWR/484579) |
 | PCB | Bumper Board | 1 | $7.00 | — |
-| Key switches | Switches for bumpers and triggers | 1 | $4.49 | Amazon.com |
+| Key switches | Switches for bumpers and triggers | 1 | $4.49 | [Amazon.com](https://www.amazon.com/BlingKingdom-Replacement-Mechanical-Keyboard-Dustproof/dp/B0DSHTPSL3/ref=sr_1_3?dib=eyJ2IjoiMSJ9.LyA5k9hQZ3TDZmvShaIgdC1x8-e4M_OgU-MSiJA7pRifHtNTMVu-jAa9ok0x9srcZL6VX9vFiHq9PH3LxRHKZZkjkUKI1o_3qPakfT9zOohFOny12vYw8yyDki-HHW44hAi5VVR4Qmobv2XMPkEwffsCfBCpbUJULnDu41j4BzEEHEU7ZyNe8JIRmdK0ePFpCHs5-4_tnRGEXxwl6YUi0zSTSq-WAnlBawwUAcbQE3k.fCqzxMRGs79hZ2qtOfHAEz0_l41qzmPa94EpIWFrDfc&dib_tag=se&keywords=Keyboard+Switch&qid=1775698178&sr=8-3) |
 
 **Subtotal:** 4 parts — **$13.79**
 
@@ -77,12 +81,12 @@ This Bill of Materials summarizes all components required to assemble the Open S
 
 | Part Name | Desc | Qty. | Total | Link |
 |-----------|------|------|-------|------|
-| 24LC02BT-I/OT | 2 kbit EEPROM | 1 | $0.31 | Digikey.com |
-| PCF8574DWR | 8 bit io expander | 1 | $1.99 | Digikey.com |
-| LTST-C193TBKT-5A | Blue LED | 4 | $0.72 | Digikey.com |
-| B3F-1000 | Button | 4 | $0.96 | Digikey.com |
+| 24LC02BT-I/OT | 2 kbit EEPROM | 1 | $0.31 | [Digikey.com](https://www.digikey.com/en/products/detail/microchip-technology/24LC02BT-I-OT/443519) |
+| PCF8574DWR | 8 bit io expander | 1 | $1.99 | [Digikey.com](https://www.digikey.com/en/products/detail/texas-instruments/PCF8574DWR/484579) |
+| LTST-C193TBKT-5A | Blue LED | 4 | $0.72 | [Digikey.com](https://www.digikey.com/en/products/detail/liteon/LTST-C193TBKT-5A/2053656) |
+| B3F-1000 | Button | 4 | $0.96 | [Digikey.com](https://www.digikey.com/en/products/detail/omron-electronics-inc-emc-div/B3F-1000/33150) |
 | PCB | Nav Board | 1 | $7.00 | — |
-| 319-10-104-00-006000 | Pogo pin strikers | 3 | $8.94 | Digikey.com |
+| 319-10-104-00-006000 | Pogo pin strikers | 3 | $8.94 | [Digikey.com](https://www.digikey.com/en/products/detail/mill-max-manufacturing-corp/319-10-104-00-006000/5176105) |
 
 **Subtotal:** 14 parts — **$19.92**
 
