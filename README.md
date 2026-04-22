@@ -104,3 +104,6 @@ This project is supported by the Open Source Hardware Enterprise at Michigan Tec
 [Proteus ControllerTM kit](https://byowave.com/products/proteus-controller )
 
 [Thrustmaster](https://eshop.thrustmaster.com/en_us/gamepads/pc.html)
+
+[Adafruit ADS1X15 Library](https://github.com/adafruit/Adafruit_ADS1X15)
+
