@@ -86,7 +86,7 @@ A full BOM including the ESP32‑S3 boards, connector sets, resistors, capacitor
 4. Additional module types (battery, gyroscope, sliders, touchpads)
 
 ## Semester End Report
-For the Enterprise Program at Michigan Tech there is a end of semester report for the project to summarize the progress of the project. [Link](/Documents/Open%20Source%20Modular%20Controller%20Fall%202025%20Final%20Report.pdf)
+For the Enterprise Program at Michigan Tech there is a end of semester and project report for the project to summarize the progress of the project. [Link](/Documents/Open%20Source%20Modular%20Controller%20Fall%202025%20Final%20Report.pdf)
 
 ## Acknowledgements
 This project is supported by the Open Source Hardware Enterprise at Michigan Technological University.
