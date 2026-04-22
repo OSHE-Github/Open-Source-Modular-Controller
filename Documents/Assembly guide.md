@@ -25,14 +25,14 @@ For Our Shells:
 1. Body shells: [link](/Hardware/Shell/OSMC)
     - The full casing can be printed from the .step file
     - Individual case sections can be printed from the .stl files
-2. Module shells: [link](/Hardware/module)
+2. Module shells: [link](/Hardware/Module%STLs)
     - Standard configurations require **7** modules: 1 Master, 2 Bumpers, 2 Joysticks, 2 Buttons
     - Each **Master** modules requires: 1 Master top casing, 1 Master bottom casing, 3 Master buttons
     - Each **Joystick** module requires: 1 Joystick top casing, 1 Joystick bottom casing
     - Each **Bumper** module requires 1 Bumper body casing and 2 Bumper caps
     - Each **Button** module requires: 1 Button top casing, 1 Button Bottom casing, 4 non-Master buttons
-        - For push buttons, options include the normal button caps ([link](/Hardware/Module%STLs/OSMC_Module_Buttons_Button)) and the taller button caps ([link](/Hardware/Module%STLs/Button%Cap%Taller.stl))
-        - For membrane buttons, print the SMD caps ([link](/Hardware/Module%STLs/Button%Cap$SMD.stl))
+        - For push buttons, options include the normal button caps (**OSMC_Module_Buttons_Button.stl**) and the taller button caps (**Button Cap Taller.stl**)
+        - For membrane buttons, print the SMD caps (**Button Cap SMD.stl**)
     
 For **Custom** shell designs we recommend following this design process: [link](/Documents/Custom%Shell%Recommendations.md)
 
