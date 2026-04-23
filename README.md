@@ -14,7 +14,7 @@ The controller connects over USB and is recognized as a standard Human Interface
 
 The current prototype includes:
 - A functional ESP32‑S3‑based main controller
-- Swappable joystick and button modules
+- Hot-swappable joystick and button modules
 - Receiver boards that can be placed anywhere in the 3D‑printed shell
 - USB HID communication via TinyUSB
 
@@ -42,8 +42,7 @@ The repository is organized as follows:
 ## System Architecture
 
 Core system components include:
-- **ESP32‑S3 main board** (custom carrier or DevKitC‑based)
-- **Receiver boards** distributing power and signals
+- **Receiver boards** distributing power, signals, and micro-controller
 - **Module boards** for inputs (joystick/button)
 - **3D‑printed enclosure** with heat‑set inserts for secure mounting
 
@@ -82,13 +81,12 @@ A full BOM including the ESP32‑S3 boards, connector sets, resistors, capacitor
 
 ## What the Project Could Use Next
 1. On‑board processing for more advanced input mapping
-2. Improved module-to-module communication protocol
-3. Magnetic pogo‑pin connectors for easier swapping
-4. Wireless mode using Bluetooth HID
-5. Additional module types (triggers, sliders, touchpads)
+2. PCB adjustment and testing
+3. Wireless mode using Bluetooth HID
+4. Additional module types (battery, gyroscope, sliders, touchpads)
 
 ## Semester End Report
-For the Enterprise Program at Michigan Tech there is a end of semester report for the project to summarize the progress of the project. [Link](/Documents/Open%20Source%20Modular%20Controller%20Fall%202025%20Final%20Report.pdf)
+For the Enterprise Program at Michigan Tech there is a end of semester and project report for the project to summarize the progress of the project. [Link](/Documents/Final%20Report%20Spring%202026.pdf)
 
 ## Acknowledgements
 This project is supported by the Open Source Hardware Enterprise at Michigan Technological University.
@@ -101,4 +99,11 @@ This project is supported by the Open Source Hardware Enterprise at Michigan Tec
 
 [GitHub Doc](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#links)
 
+[Alpakka conroller](https://inputlabs.io/alpakka)
+
+[Proteus ControllerTM kit](https://byowave.com/products/proteus-controller )
+
+[Thrustmaster](https://eshop.thrustmaster.com/en_us/gamepads/pc.html)
+
+[Adafruit ADS1X15 Library](https://github.com/adafruit/Adafruit_ADS1X15)
 

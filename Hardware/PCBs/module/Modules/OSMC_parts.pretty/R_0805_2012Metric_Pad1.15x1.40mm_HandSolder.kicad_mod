@@ -1,0 +1,212 @@
+(footprint "R_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), Alternate KiCad Library")
+	(tags "resistor handsolder")
+	(property "Reference" "REF**"
+		(at 0 -1.65 0)
+		(layer "F.SilkS")
+		(uuid "aaac5995-71a1-4b3c-affe-4df77a9a93f3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "10k"
+		(at 0 1.65 0)
+		(layer "F.Fab")
+		(uuid "3ba93cbc-1d4d-4d27-aef8-a6c589ae12ea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "~"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "974022bd-78a1-4aae-a796-cd8c893a3da7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Resistor"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ba0827d1-5314-4ed6-af14-0875986fdcf7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.8415 -0.9525)
+		(end -1.8415 0.9525)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ed15c97d-510b-4b90-a087-610508f7e345")
+	)
+	(fp_line
+		(start -1.8415 0.9525)
+		(end 1.8415 0.9525)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "889a0e01-da2d-4639-9b8b-f37fa4008a50")
+	)
+	(fp_line
+		(start 1.8415 -0.9525)
+		(end -1.8415 -0.9525)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d7f59cb1-3cab-4ae8-abbd-edb2949e4009")
+	)
+	(fp_line
+		(start 1.8415 0.9525)
+		(end 1.8415 -0.9525)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "af950bd9-be6a-45c1-b3eb-a35a4d4a7103")
+	)
+	(fp_line
+		(start -1.85 -0.95)
+		(end 1.85 -0.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1d048163-7f51-4dbc-98e9-61caa2e062b5")
+	)
+	(fp_line
+		(start -1.85 0.95)
+		(end -1.85 -0.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a800478d-7796-4b6a-b7fb-7928ef97ba3a")
+	)
+	(fp_line
+		(start 1.85 -0.95)
+		(end 1.85 0.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6fd22a65-7cb8-4b10-98cc-3c4f75b9506f")
+	)
+	(fp_line
+		(start 1.85 0.95)
+		(end -1.85 0.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9552a620-f9ff-4bb7-950a-5fdbeec30c62")
+	)
+	(fp_line
+		(start -1 -0.6)
+		(end 1 -0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b86f6c7d-7093-4869-8507-50fc8c098bd7")
+	)
+	(fp_line
+		(start -1 0.6)
+		(end -1 -0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b6c4ee58-00fb-4a3e-a43b-878b5cab42f5")
+	)
+	(fp_line
+		(start 1 -0.6)
+		(end 1 0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4b981353-2c58-4fb4-9912-7fb6c91280af")
+	)
+	(fp_line
+		(start 1 0.6)
+		(end -1 0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "25fc3b52-6839-48ea-bc8e-96e5648226fc")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "eb01912a-0482-4935-82a9-61e6e935276e")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.08)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.025 0)
+		(size 1.15 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.217391)
+		(uuid "75e0ff76-d689-4d94-831e-9f5a34e7f80a")
+	)
+	(pad "2" smd roundrect
+		(at 1.025 0)
+		(size 1.15 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.217391)
+		(uuid "e3614600-2444-436e-8707-47c818a59260")
+	)
+	(embedded_fonts no)
+	(model "${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
